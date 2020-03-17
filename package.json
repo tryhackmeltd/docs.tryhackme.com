@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "test": "cross-env NODE_ENV=test jest --detectOpenHandles"
+    "test": "cross-env NODE_ENV=test ./node_modules/jest/bin/jest.js --detectOpenHandles"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.43",

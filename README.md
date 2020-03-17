@@ -7,7 +7,8 @@ TryHackMe Documentation
   
 <p align="center">Officially maintained documentation for all TryHackMe products, services & resources.</p>  
   
-<p align="center">     
+<p align="center">  
+   [![Build Status](https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master)](https://travis-ci.com/tryhackmeltd/docs.tryhackme.com)
   <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />  
 </a>  
