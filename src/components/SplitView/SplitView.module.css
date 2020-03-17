@@ -1,0 +1,5 @@
+.splitViewContainer {
+    display: flex;
+    min-height: 15vh;
+    background-color: var(--ifm-hero-background-color);
+}

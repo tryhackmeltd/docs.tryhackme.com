@@ -1,0 +1,228 @@
+:root {
+    --thm-sub-hero-bg-color: #20232a;
+}
+
+html[data-theme='dark'] {
+    --thm-sub-hero-bg-color: rgba(0,0,0,0.5);
+}
+
+.heroBanner {
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+    .heroBanner {
+        padding: 2rem;
+    }
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.features div:first-child {
+    max-width: 100%;
+}
+
+.features div > div:first-child {
+    justify-content: center;
+}
+
+/*.features div > div:first-child {*/
+/*  margin-right: .5rem;*/
+/*}*/
+
+/*.features div > div:last-child {*/
+/*  margin-left: .5rem;*/
+/*}*/
+
+.feature:hover {
+    /*box-shadow: 6px 6px 2px #232323;*/
+    cursor: pointer;
+    background: #f8f8f8;
+}
+
+.feature {
+    border: 4px solid #000;
+    /*box-shadow: 5px 5px 2px #e0e0e0;*/
+    /*transition: background .20s, border .20s, box-shadow .3s;*/
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1.2rem;
+}
+
+.featureImage {
+    height: 200px;
+    width: 200px;
+}
+
+.imageBoxContainerLeft {
+    /* Here's the trick */
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.8);
+
+    /* Basic background styles */
+    background: url(https://blog.tryhackme.com/content/images/size/w1000/2020/02/TryHackMe_Red_Blue_borderless.png) center center;
+    background-size: cover;
+
+    /* Here's the same styles we applied to our content-div earlier */
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 34px;
+    border-right: 2px solid #4d7a00;
+    border-bottom: 2px solid darkslateblue;
+    border-top: 2px solid var(--ifm-color-primary);
+    /* Add a transition, just for fun */
+    transition: box-shadow .3s ease-out, border .1s ease-in, font-size .1s ease-out;
+}
+.imageBoxContainerLeft:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.6);
+    border-color: #88cc14;
+    font-size: 33px;
+}
+
+.arrowHeader {
+    margin-left: 1rem;
+}
+
+.imageBoxContainerRight {
+    /* Here's the trick */
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.8);
+
+    /* Basic background styles */
+    background: url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/IMG_20191026_101233.jpg) center center;
+    background-size: cover;
+
+    /* Here's the same styles we applied to our content-div earlier */
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 34px;
+    border-left: 2px solid #4d7a00;
+    border-bottom: 2px solid darkslateblue;
+    border-top: 2px solid var(--ifm-color-primary);
+    /* Add a transition, just for fun */
+    transition: box-shadow .3s ease-out, border .1s ease-in, font-size .1s ease-out;
+}
+.imageBoxContainerRight:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.6);
+    border-color: #88cc14;
+    font-size: 33px;
+}
+
+.imageBoxOuter {
+    display: flex;
+    min-height: 15vh;
+    background-color: var(--ifm-hero-background-color);
+}
+
+
+.imageBoxLeft {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/lfi.jpg) center center;
+    background-size: cover;
+    /*flex: 1;*/
+}
+
+.imageBoxLeft:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1)) , url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/lfi.jpg) center center;
+}
+
+.imageBoxRight {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/lfi.jpg) center center;
+    background-size: cover;
+    /*flex: 1;*/
+}
+
+.announcement {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*height: 50px;*/
+}
+
+.announcement a {
+    color: #00ff00;
+}
+
+.announcementDark {
+    background-color: darkslateblue;
+    color: #fff;
+}
+
+
+.categorySelect {
+    font-weight: bold;
+    font-size: 24px;
+    /*padding: 48px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 15%;
+}
+
+.categorySelect a {
+    color: #00ff00;
+}
+
+.categorySelectText {
+    background-color: var(--thm-sub-hero-bg-color);
+    color: #fff;
+    flex: 1;
+}
+
+.categorySelectInnerLeft {
+    /*margin: 0 auto;*/
+    /*max-width: 768px;*/
+    flex: 1;
+    /*padding: 48px;*/
+    background-image: url(https://blog.tryhackme.com/content/images/size/w1000/2020/01/2-1.png);
+}
+
+.categorySelectInnerLeftText {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.categorySelectInnerLeft:hover {
+    /*background: none;*/
+    cursor: pointer;
+}
+
+.categorySelectInnerRight {
+    /*margin: 0 auto;*/
+    /*max-width: 768px;*/
+    flex: 1;
+    /*padding: 48px;*/
+}
+
+/*.categoryTiles {*/
+/*  text-align: center;*/
+/*  margin: 0;*/
+/*}*/

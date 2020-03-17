@@ -1,0 +1,18 @@
+.bannerContainer {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bannerContainer a {
+    color: #00ff00;
+}
+
+.dark {
+    background-color: darkslateblue;
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+.categories {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.categories div:first-child {
+    max-width: 100%;
+}
+
+.categories div > div:first-child {
+    justify-content: center;
+}
+
+.category:hover {
+    cursor: pointer;
+    background: #f8f8f8;
+}
+
+.category {
+    border: 4px solid #000;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1.2rem;
+    align-self: stretch;
+}
+
+.categoryImage {
+    height: 200px;
+    width: 200px;
+}
+
+.postCategoryAction {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 auto;
+    margin: 1rem auto;
+    height: 50px;
+}
+
+.loadMoreBtn {
+    max-width: 10%;
+    width: 10%;
+    border-radius: 5px;
+}
+
+.loadMoreBtn a {
+    color: #00ff00;
+}
+
+.loadMoreBtnDark {
+    background-color: #212c42;
+    color: #fff;
+    transition: border-color .5ms ease-in, opacity .1s ease-in;
+}
+
+.loadMoreBtnDark:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    border: 3px solid #88cc14;
+}
