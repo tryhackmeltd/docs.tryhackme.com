@@ -1,14 +1,16 @@
 
   
 <h1 align="center">  
-<img src="https://tryhackme.com/img/THMlogo.png" style="zoom:40%"/><br /><br />  
+<img src="https://i.imgur.com/3HnCZjv.png" style="zoom:40%"/><br /><br />  
 TryHackMe Documentation  
 </h1>  
   
 <p align="center">Officially maintained documentation for all TryHackMe products, services & resources.</p>  
   
 <p align="center">  
-   [![Build Status](https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master)](https://travis-ci.com/tryhackmeltd/docs.tryhackme.com)
+  <a aria-label="Build Status" href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
+    <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
+</a>  
   <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />  
 </a>  
