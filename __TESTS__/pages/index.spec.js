@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow, mount } from 'enzyme'
 import { MemoryRouter } from '@docusaurus/router'
-import Home from './index'
-import HeaderComponent from "../components/Header/HeaderComponent"
+import Home from '../../src/pages/index'
+import HeaderComponent from "../../src/components/Header/HeaderComponent"
 
 jest.mock('@docusaurus/Link', () => {
   return ({children}) => {
