@@ -5,7 +5,8 @@ node_js:
 cache:
   npm: true
 install:
-  npm i
+  - npm i
+  - npm install -g codecov
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
@@ -13,7 +14,7 @@ script:
   - npm t && npm run build
 deploy:
   provider: script
-  script: GIT_USER="${GH_NAME}" npm run deploy && bash <(curl -s https://codecov.io/bash)
+  script: GIT_USER="${GH_NAME}" npm run deploy && npm t && codecov
   skip_cleanup: true
   on:
     branch: master
