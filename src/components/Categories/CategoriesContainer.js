@@ -29,7 +29,7 @@ const CategoriesContainer = ({ homepageCategories }) => {
     isFetchingTimeout = setTimeout(() => {
       setLimit(limit + 9)
       setIsFetching(false)
-    }, 1000)
+    }, 500)
   }
 
   const handleCategoryClick = (e, uri) => {
