@@ -87,6 +87,7 @@ sidebar_label: Introduction
 The `id` property is used by docusaurus in order to prefix the document as a unique entity. The `title` property is of course the document's title. The `sidebar_label` however is the name which is displayed when viewing any document within the documentation site. It is a navigatable sidebar and this property allows you to shorten the name to improve readability. You can see in the above example, this header prefix is taken from `/docs/getting-started/introduction`; as this lives within the sub-category `"Getting Started"` there is no need for the sidebar to contain the document's full title, as the context in which it introduces is pretty clear.
 
 Below is a screenshot to demonstrate this:
+
 ![Example Sidebar](./static/img/thm-docs-sidebar.png)
 
 Once you are happy with your changes, open `<rootDir>/sidebars.js` and following the predefined structure, add your new addition information to the config object. The structure is as follows:
