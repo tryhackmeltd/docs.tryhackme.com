@@ -40,24 +40,13 @@ html[data-theme='dark'] {
     justify-content: center;
 }
 
-/*.features div > div:first-child {*/
-/*  margin-right: .5rem;*/
-/*}*/
-
-/*.features div > div:last-child {*/
-/*  margin-left: .5rem;*/
-/*}*/
-
 .feature:hover {
-    /*box-shadow: 6px 6px 2px #232323;*/
     cursor: pointer;
     background: #f8f8f8;
 }
 
 .feature {
     border: 4px solid #000;
-    /*box-shadow: 5px 5px 2px #e0e0e0;*/
-    /*transition: background .20s, border .20s, box-shadow .3s;*/
     border-radius: 5px;
     padding: 1rem;
     margin: 1.2rem;
@@ -142,7 +131,6 @@ html[data-theme='dark'] {
 .imageBoxLeft {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/lfi.jpg) center center;
     background-size: cover;
-    /*flex: 1;*/
 }
 
 .imageBoxLeft:hover {
@@ -153,7 +141,6 @@ html[data-theme='dark'] {
 .imageBoxRight {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(https://blog.tryhackme.com/content/images/size/w1000/2019/12/lfi.jpg) center center;
     background-size: cover;
-    /*flex: 1;*/
 }
 
 .announcement {
@@ -164,7 +151,6 @@ html[data-theme='dark'] {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*height: 50px;*/
 }
 
 .announcement a {
@@ -180,7 +166,6 @@ html[data-theme='dark'] {
 .categorySelect {
     font-weight: bold;
     font-size: 24px;
-    /*padding: 48px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,10 +184,7 @@ html[data-theme='dark'] {
 }
 
 .categorySelectInnerLeft {
-    /*margin: 0 auto;*/
-    /*max-width: 768px;*/
     flex: 1;
-    /*padding: 48px;*/
     background-image: url(https://blog.tryhackme.com/content/images/size/w1000/2020/01/2-1.png);
 }
 
@@ -211,18 +193,9 @@ html[data-theme='dark'] {
 }
 
 .categorySelectInnerLeft:hover {
-    /*background: none;*/
     cursor: pointer;
 }
 
 .categorySelectInnerRight {
-    /*margin: 0 auto;*/
-    /*max-width: 768px;*/
     flex: 1;
-    /*padding: 48px;*/
 }
-
-/*.categoryTiles {*/
-/*  text-align: center;*/
-/*  margin: 0;*/
-/*}*/
