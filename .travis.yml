@@ -14,7 +14,9 @@ script:
   - npm t && npm run build
 deploy:
   provider: script
-  script: GIT_USER="${GH_NAME}" npm run deploy && npm t && codecov
+  script: GIT_USER="${GH_NAME}" npm run deploy
+  after_success:
+    - bash <(curl -s https://codecov.io/bash)
   skip_cleanup: true
   on:
     branch: master
