@@ -1,16 +1,34 @@
 # .travis.yml
+stages:
+  - smoke #setup config
+  - test #run tests
+  - build #build artifacts
+  - deploy #deploy if branch === master
 language: node_js
 node_js:
   - '10'
-branches:
-  only:
-    - master
 cache:
   npm: true
 install:
   npm i
-script:
-  - git config --global user.name "${GH_NAME}"
-  - git config --global user.email "${GH_EMAIL}"
-  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - npm t && npm run build && GIT_USER="${GH_NAME}" npm run deploy
+jobs:
+  include:
+    - stage: smoke
+    name: "Setup config"
+    script:
+    - git config --global user.name "${GH_NAME}"
+    - git config --global user.email "${GH_EMAIL}"
+    - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+    - stage: test
+    name: "Run unit tests"
+    script:
+    - npm t
+    - stage: build
+    name: "Build artifacts"
+    script:
+    - npm run build
+    - stage: deploy
+    name: "Deploy if branch === master"
+    if: branch = master
+    script:
+    - GIT_USER="${GH_NAME}" npm run deploy
