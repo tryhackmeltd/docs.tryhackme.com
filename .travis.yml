@@ -14,5 +14,6 @@ script:
 deploy:
   provider: script
   script: GIT_USER="${GH_NAME}" npm run deploy
+  skip_cleanup: true
   on:
     branch: master
