@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'tryhackmeltd', // Usually your GitHub org/user name.
   projectName: 'docs.tryhackme.com', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'TryHackMe Documentation',
       logo: {
@@ -14,10 +15,10 @@ module.exports = {
         src: 'img/thm-white.png'
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/introduction/welcome', label: 'Docs', position: 'left'},
+        {to: 'https://blog.tryhackme.com', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tryhackmeltd/docs.tryhackme.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -27,15 +28,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'TryHackMe Website',
+              to: 'https://tryhackme.com',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Blog',
+              to: 'https://blog.tryhackme.com',
             },
           ],
         },
@@ -43,12 +44,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Discord',
+              href: 'https://discord.gg/YTZwNdF',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Forums',
+              href: 'https://tryhackme.com/forum',
             },
           ],
         },
@@ -56,16 +57,16 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/RealTryHackMe',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/RealTryHackMe',
             },
           ],
         },
@@ -88,4 +89,4 @@ module.exports = {
       },
     ]
     ]
-};
+}
