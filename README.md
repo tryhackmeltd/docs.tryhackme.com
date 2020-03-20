@@ -11,7 +11,10 @@ TryHackMe Documentation
   <a aria-label="Build Status" href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
-  <a aria-label="Build Status" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
+  <a aria-label="Synk Vulnerabilties" href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
+    <img alt="Build Status" src="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com/badge.svg" target="_blank" /> 
+</a>  
+  <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
 </a>  
   <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
