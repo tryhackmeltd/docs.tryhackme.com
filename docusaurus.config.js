@@ -1,7 +1,7 @@
 module.exports = {
   title: 'TryHackMe Documentation',
   tagline: 'Documentation for all TryHackMe resources',
-  url: 'https://docs.tryhackme.com',
+  url: 'https://tryhackmeltd.github.io',
   baseUrl: '/docs.tryhackme.com/',
   favicon: 'img/thm-favicon.png',
   organizationName: 'tryhackmeltd', // Usually your GitHub org/user name.
