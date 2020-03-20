@@ -11,8 +11,11 @@ TryHackMe Documentation
   <a aria-label="Build Status" href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
+  <a aria-label="Build Status" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
+    <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
+</a>  
   <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />  
+    <img alt="License: MIT" src="https://img.shields.io/github/license/tryhackmeltd/docs.tryhackme.com" target="_blank" />  
 </a>  
 </p>  
  
@@ -24,7 +27,7 @@ TryHackMe Documentation
   
 <p>  
   <a aria-label="Follow @RealTryHackMe on Twitter" href="https://twitter.com/intent/follow?screen_name=realtryhackme" target="_blank">  
-    <img  alt="Twitter: TryHackMe" src="https://img.shields.io/twitter/follow/tryhackme.svg?style=flat-square&label=Follow%20%40TryHackMe&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />  
+    <img  alt="Twitter: TryHackMe" src="https://img.shields.io/twitter/follow/realtryhackme.svg?style=flat-square&label=Follow%20%40RealTryHackMe&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />  
   </a>  
   <a aria-label="TryHackMe Blog" href="https://blog.tryhackme.com">  
     <img align="right" alt="TryHackMe: Blog" src="https://img.shields.io/badge/Learn%20more%20on%20our%20blog-lightgray.svg?style=flat-square" target="_blank" />  
