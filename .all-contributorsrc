@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Kent55",
+      "name": "Matt Kent",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5375354?v=4",
+      "profile": "http://matt-kent.com",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "docs.tryhackme.com",
+  "projectOwner": "tryhackmeltd",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
