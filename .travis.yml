@@ -14,9 +14,7 @@ script:
   - npm t && npm run build
 deploy:
   provider: script
-  script: GIT_USER="${GH_NAME}" npm run deploy
-  after_success:
-    - codecov
+  script: npm t && codecov && GIT_USER="${GH_NAME}" npm run deploy
   skip_cleanup: true
   on:
     branch: master
