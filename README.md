@@ -12,9 +12,6 @@ TryHackMe Documentation
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
-  <a aria-label="Synk Vulnerabilties" href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
-    <img alt="Build Status" src="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com/badge.svg" target="_blank" /> 
-</a>  
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
 </a>  
