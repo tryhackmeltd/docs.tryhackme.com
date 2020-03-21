@@ -14,7 +14,7 @@ script:
   - npm t && npm run build
 deploy:
   provider: script
-  script: npm t && codecov && GIT_USER="${GH_NAME}" npm run deploy
+  script: npm t && codecov -f ./coverage/clover.xml && GIT_USER="${GH_NAME}" npm run deploy
   skip_cleanup: true
   on:
     branch: master
