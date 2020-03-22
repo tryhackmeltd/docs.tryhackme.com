@@ -1,8 +1,3 @@
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square' />
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-  
 <h1 align="center">  
 <img src="https://i.imgur.com/3HnCZjv.png" style="zoom:40%"/><br /><br />  
 TryHackMe Documentation  
@@ -15,6 +10,9 @@ TryHackMe Documentation
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
+  <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square' />
+<!-- ALL-CONTRIBUTORS-BADGE:END --></a>
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
 </a>  
@@ -24,7 +22,7 @@ TryHackMe Documentation
 </p>  
  
 <p align="center">  
-  <a aria-label="TryHackMe documentation" href="https:docs.tryhackme.com">📚 Read the documentation</a>  
+  <a aria-label="TryHackMe documentation" href="https://docs.tryhackme.com" target="_blank">📚 Read the documentation</a>  
   |  
   <a aria-label="contribute to the docs" href="https://github.com/TryHackMeLtd/docs.tryhackme.com/#contributing"><b>Contributing to the documentation</b></a>  
 </p>  
@@ -43,8 +41,8 @@ TryHackMe Documentation
 - [📚 Documentation](https://docs.tryhackme.com)  
 - [👏 Contributing](#-contributing)  
 - [❓ FAQ](#-faq)  
-- [💙 The Team](#-contributors)  
-- [License](#-license)  
+- [✨ Contributors](#contributors-)  
+- [License](#license)  
   
 ## 📚 Documentation  
   
@@ -183,29 +181,6 @@ If you have questions about TryHackMe or this documentation and want answers, th
   
 Alternatively, you may also ask questions on our [forums](https://tryhackme.com/forum).  
   
-## 💙 Contributors  
-  
-Thanks goes to all these wonderful individuals who together continue to make TryHackMe a fun, safe and enjoyable cyber security training platform.  
-
-**TODO**
-  
-> Note: this section is automatically updated so please raise a pull request to add yourself if you've contributed to this project.  
-  
-## License  
-  
-The TryHackMe documentation source code is boilerplated from the Docusaurus OSS, and is made available under the [MIT license](LICENSE). Please check nested dependencies for their relevant licenses; some may be BSD etc.  
-  
-<!-- Footer -->  
-  
----  
-  
-<p>  
-<center>
-    <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
-        <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=for-the-badge&color=33CC12" target="_blank" />  
-    </a>
-    </center>  
-</p>
 
 ## Contributors ✨
 
@@ -226,3 +201,21 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+  
+> Note: To add a new contributor to this table, including yourself, comment on the following open issue: https://github.com/tryhackmeltd/docs.tryhackme.com/issues/3
+  
+## License  
+  
+The TryHackMe documentation source code is boilerplated from the Docusaurus OSS, and is made available under the [MIT license](LICENSE). Please check nested dependencies for their relevant licenses; some may be BSD etc.  
+  
+<!-- Footer -->  
+  
+---  
+  
+<p>  
+<center>
+    <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
+        <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=for-the-badge&color=33CC12" target="_blank" />  
+    </a>
+    </center>  
+</p>
