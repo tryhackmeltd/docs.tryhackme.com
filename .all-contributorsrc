@@ -13,7 +13,8 @@
       "contributions": [
         "infra",
         "test",
-        "code"
+        "code",
+        "design"
       ]
     }
   ],
@@ -22,5 +23,6 @@
   "projectOwner": "tryhackmeltd",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": false,
+  "badgeTemplate": "<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square' />"
 }
