@@ -24,6 +24,8 @@ const CategoriesContainer = ({ homepageCategories }) => {
     }
   }, [])
 
+  // currently not in use so ignoring from coverage
+  /* istanbul ignore next */
   const handleLoadMoreClick = e => {
     setIsFetching(true)
     isFetchingTimeout = setTimeout(() => {
@@ -47,22 +49,6 @@ const CategoriesContainer = ({ homepageCategories }) => {
                 <CategoriesComponent key={idx} handleClick={handleCategoryClick} {...props} />
             ))}
           </div>
-          {isFetching ? (
-            <div className={styles.postCategoryAction}>
-              <BeatLoader color='#000' />
-            </div>
-          ) : limit < homepageCategories.length ? (
-            <div className={classNames(styles.postCategoryAction, styles.loadMoreBtn, styles.loadMoreBtnDark)}
-                 onClick={handleLoadMoreClick}>
-              <div>
-                Load more...
-              </div>
-            </div>
-          ) : (
-            <div className={styles.postCategoryAction}>
-              Total of {homepageCategories.length} categories loaded.
-            </div>
-          )}
         </div>
       </section>
     ) : (

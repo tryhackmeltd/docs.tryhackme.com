@@ -13,7 +13,7 @@ import homepageCategories from '../../homepage-categories'
 
 function Home() {
   const context = useDocusaurusContext()
-  const {siteConfig = {}} = context
+  const { siteConfig = {} } = context
   const splitViewItems = [
     {
       text: 'Latest blog posts',

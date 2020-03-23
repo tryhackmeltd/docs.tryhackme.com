@@ -3,7 +3,7 @@ const path = require('path')
 const ignorePatterns = [
   '/node_modules/',
   '__fixtures__'
-];
+]
 
 module.exports = {
   rootDir: path.resolve(__dirname),
