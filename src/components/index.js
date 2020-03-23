@@ -1,5 +1,0 @@
-export { BannerComponent } from './Banner'
-export { CategoriesContainer } from './Categories'
-export { HeaderComponent } from './Header'
-export { HeroTabComponent } from './HeroTab'
-export { SplitViewComponent } from './SplitView'

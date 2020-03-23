@@ -9,11 +9,17 @@ const HeaderComponent = ({ siteConfig, btnText, uri }) => {
   return (
     <header className={classnames('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">{ siteConfig && siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig && siteConfig.tagline}</p>
       </div>
     </header>
   )
+}
+
+HeaderComponent.defaultProps = {
+  siteConfig: {},
+  btnText: 'Get Started',
+  uri: '/'
 }
 
 HeaderComponent.propTypes = {

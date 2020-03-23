@@ -24,6 +24,8 @@ const CategoriesContainer = ({ homepageCategories }) => {
     }
   }, [])
 
+  // currently not in use so ignoring from coverage
+  /* istanbul ignore next */
   const handleLoadMoreClick = e => {
     setIsFetching(true)
     isFetchingTimeout = setTimeout(() => {

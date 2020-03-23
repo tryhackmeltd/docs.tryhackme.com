@@ -9,50 +9,31 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Introduction',
-      items: [
-        'introduction/welcome',
-        'introduction/what-is-tryhackme',
-        'introduction/why-should-i-join'
-      ]
-    },
-    {
-      type: 'category',
       label: 'General',
       items: [
-        'general/general',
+        'general/welcome',
+        'general/what-is-tryhackme',
+        'general/why-should-i-join'
       ]
     },
     {
       type: 'category',
-      label: 'Getting Started',
+      label: 'OpenVPN',
       items: [
-        'getting-started/introduction',
+        'openvpn/why-openvpn',
         {
           type: 'category',
-          label: 'Individual',
+          label: 'Connecting',
           items: [
-            'getting-started/individual/creating-an-account',
-            'getting-started/individual/openvpn-configuration',
-            'getting-started/individual/deploying-your-first-vm'
+            'openvpn/connecting/openvpn-installing',
+            'openvpn/connecting/openvpn-connecting',
           ]
         },
         {
           type: 'category',
-          label: 'Educational',
+          label: 'Troubleshooting',
           items: [
-            'getting-started/educational/creating-an-account',
-            'getting-started/educational/openvpn-configuration',
-            'getting-started/educational/deploying-your-first-vm'
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Enterprise',
-          items: [
-            'getting-started/enterprise/creating-an-account',
-            'getting-started/enterprise/openvpn-configuration',
-            'getting-started/enterprise/deploying-your-first-vm'
+            'openvpn/troubleshooting/openvpn-troubleshooting-multivpn',
           ]
         },
       ]
@@ -61,11 +42,31 @@ module.exports = {
       type: 'category',
       label: 'Completing Rooms',
       items: [
-        'rooms/introduction-to-rooms',
+        'rooms/what-are-rooms',
         'rooms/how-points-work',
         'rooms/accessing-deployed-vms',
-        'rooms/room-difficulty-levels',
-        'rooms/creating-a-room'
+        'rooms/room-difficulty-levels'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Room Creation',
+      items: [
+        'room-creation/room-creation-getting-started',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Sales and Billing',
+      items: [
+        'sales-billing/sales-billing-student',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Teaching',
+      items: [
+        'teaching/teaching-getting-started',
       ]
     }
   ]

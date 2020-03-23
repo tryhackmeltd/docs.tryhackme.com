@@ -5,17 +5,15 @@
 import React from 'react'
 import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import {
-  CategoriesContainer,
-  HeaderComponent,
-  SplitViewComponent,
-  BannerComponent
-} from '../components'
+import CategoriesContainer from '../components/Categories/CategoriesContainer'
+import HeaderComponent from '../components/Header/HeaderComponent'
+import SplitViewComponent from '../components/SplitView/SplitViewComponent'
+import BannerComponent from '../components/Banner/BannerComponent'
 import homepageCategories from '../../homepage-categories'
 
 function Home() {
   const context = useDocusaurusContext()
-  const {siteConfig = {}} = context
+  const { siteConfig = {} } = context
   const splitViewItems = [
     {
       text: 'Latest blog posts',
