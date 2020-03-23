@@ -15,7 +15,7 @@ module.exports = {
         src: 'img/thm-white.png'
       },
       links: [
-        {to: 'docs/introduction/welcome', label: 'Docs', position: 'left'},
+        {to: 'docs/general/welcome', label: 'Docs', position: 'left'},
         {to: 'https://blog.tryhackme.com', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tryhackmeltd/docs.tryhackme.com',
