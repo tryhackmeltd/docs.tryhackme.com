@@ -55,7 +55,10 @@ module.exports = {
       label: 'Completing Rooms',
       items: [
         'rooms/introduction-to-rooms',
-        'rooms/room-difficulty-levels'
+        'rooms/how-points-work',
+        'rooms/accessing-deployed-vms',
+        'rooms/room-difficulty-levels',
+        'rooms/creating-a-room'
       ]
     }
   ]

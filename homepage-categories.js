@@ -50,15 +50,15 @@ module.exports = [
   },
   {
     id: 6,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
+    title: 'How Points Work',
+    description: 'This article covers the TryHackMe points system and how much is earned throughout the process of completing rooms.',
+    uri: '/docs/rooms/how-points-work'
   },
   {
     id: 7,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
+    title: 'Accessing Deployed VMs',
+    description: 'This article explains how to access a deployed VM when completing a room, assuming you have already setup OpenVPN.',
+    uri: '/docs/rooms/accessing-deployed-vms'
   },
   {
     id: 8,
@@ -68,9 +68,9 @@ module.exports = [
   },
   {
     id: 9,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
+    title: 'Creating a room',
+    description: 'Have some great content you\'d like to share? Not too sure how to create a new room? Then this article is for you!',
+    uri: '/docs/rooms/creating-a-room'
   },
   {
     id: 10,

@@ -2,7 +2,10 @@
   "name": "docs-tryhackme-com",
   "version": "1.0.0",
   "private": true,
-  "authors": ["Matt Kent <@Matt_Kent9>", "Ben Spring <@0x8445>"],
+  "authors": [
+    "Matt Kent <@Matt_Kent9>",
+    "Ben Spring <@0x8445>"
+  ],
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",

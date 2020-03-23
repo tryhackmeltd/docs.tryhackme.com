@@ -33,6 +33,11 @@
   --ifm-code-background: lightgrey;
 }
 
+.markdown > ol > li > a {
+  color: #88cc14;
+  font-weight: bold;
+}
+
 .button.button--lg {
   --ifm-button-size-multiplier: 2;
 }
