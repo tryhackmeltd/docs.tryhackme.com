@@ -77,19 +77,19 @@ $ npm start
 #### 3. Editing `<rootDir>/docs`  
 All documentation markdown files (`*.md)`, which together make up the content visible on the TryHackMe documentation site can be found within `<rootDir>/docs`.
 
-Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated all belong to the category `general`, which is their parent directory.
+Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated as all belong to the category `general`, which is their parent directory.
 
 If you're adding a new article and feel it can be placed in an existing category, simply create a new markdown file `My Article.md` and drop it in the relevant directory. You need to make sure that you add the following header to any markdown file you add:
 
 ```markdown
 ---  
-id: articleID  
+id: article-id  
 title: My Article Title  
 sidebar_label: My Sidebar Label
 ---
 ``` 
 
-As an example, let's say you want to add the article `My Awesome Room` to the existing category **Rooms**. First, navigate to `<rootDir>/docs/rooms`. You are now in the *Rooms* category. Now, you'd create a markdown file in this directory called `My Awesome Room.md` and add the following header to the very top of the file:
+As an example, let's say you want to add the article `My Awesome Room` to the existing category **Rooms**. First, you'd navigate to `<rootDir>/docs/rooms`. You are now in the **Rooms** category. Now, you'd create a markdown file in this directory called `My Awesome Room.md` and add the following header to the very top of the file:
 
 ```markdown
 ---  
@@ -101,7 +101,7 @@ sidebar_label: My Awesome Room
 
 | key            | description |
 |---------------|---------------------------------------------------------------------------------------------------|
-| id           | The article ID, ideally just a kebab-case version of the article's title, i.e.  `My Awesome Room` | 
+| id           | The article ID, ideally just a kebab-case version of the article's title, i.e.  `my-awesome-room` | 
 | title         | The article's title, i.e. `My Awesome Room`                                                       |
 | sidebar_label | The title displayed in the sidebar, either the same as title or a shorter alternative             |
 
@@ -111,7 +111,7 @@ On the left of the document, there is the documentation sidebar, which looks som
 
 ![Example Sidebar](./static/img/thm-docs-sidebar.png)
 
-In order to add your new article to this sidebar, open `<rootDir>sidebars.js` and locate the `rooms` category. It should look something like this:
+In order to add your new article to this sidebar, open `<rootDir>/sidebars.js` and locate the **Rooms** category. Then add the article to the `items` list, like so:
 
 ```js
 {
@@ -127,12 +127,25 @@ In order to add your new article to this sidebar, open `<rootDir>sidebars.js` an
 
 Once you are happy with your changes, save the file and re-visit the article in your browser. You will notice it should now appear on the sidebar! You can now open a pull-request to add your article to the live documentation site!
 
-If you wish to create a new category, the process above is the same, except you add your articles to your new category directory! The only difference is you will need to create the category object within the `<rootDir>/sidebars.js` file.
+If you wish to create a new category, the process above is the same, except you add your articles to your newly created category directory! The only difference is you will need to create the category object within the `<rootDir>/sidebars.js`, rather than just appending the article to an existing one.
 
 For example, let's say you wanted `My Awesome Room` to live inside a new **Misc** category, you'd create a directory called 
-`misc` under `<rootDir>/docs/`, which would give you `<rootDir>/docs/misc`. Then, create your `my-awesome-room.md` file inside this directory, add the header as before. When editing `<rootDir>/sidebars.js`, you'd just add a new object for the `misc` category and then add your article as the first item, like so:
+`misc` under `<rootDir>/docs/`, which would give you `<rootDir>/docs/misc`. Then, you'd add your `my-awesome-room.md` file inside this directory, ensuring you include the header as discussed before. Now, when editing `<rootDir>/sidebars.js`, you'd add a new object for the `misc` category, and then add your article as the first item in the `items` list, like so:
 
 ```js
+{
+  type: 'category',
+  label: 'Rooms',
+  items: [
+    'rooms/introduction-to-rooms',
+    'rooms/room-difficulty-levels',
+    'rooms/my-awesome-room'
+  ]
+},
+
+/**
+* ADD NEW MISC CATEGORY
+*/
 {
   type: 'category',
   label: 'Misc',
@@ -142,7 +155,7 @@ For example, let's say you wanted `My Awesome Room` to live inside a new **Misc*
 }
 ```
 
-Lastly, if you would like to display your category (*only for categories*) on the homepage of the site, add your config object to `<rootDir/homepage-categories.js>`. Simply open the file and append your category to the end of the object, ensuring you bump the `id` up 1 from the previous item. To add the `misc` category, we'd add the following:
+Lastly, if you would like to display your category (*only for categories not articles*) on the homepage of the site, add your config object to `<rootDir/homepage-categories.js>`. Simply open the file and append your category to the end of the array, ensuring you bump the `id` up 1 from the previous item. To add the `misc` category, you'd add the following:
 
 
 
@@ -181,7 +194,7 @@ module.exports = [
     id: 5,
     title: 'Misc',
     description: 'This is my new category that houses a lot of miscellaneous things.',
-    uri: '/docs/misc/my-awesome-room' // THIS WILL BE THE URI TO THE FIRST DOCUMENT IN THE CATEGORY, IN THIS CASE IT'S THE ONLY DOCUMENT
+    uri: '/docs/misc/my-awesome-room' // THIS WILL BE THE URI TO THE FIRST ARTICLE IN THE CATEGORY, IN THIS CASE IT'S THE ONLY ARTICLE
   }
 
 ]
