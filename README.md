@@ -75,61 +75,76 @@ $ npm start
 ```  
   
 #### 3. Editing `<rootDir>/docs`  
-All documentation markdown files (`*.md)`, which together make up the content visible on the TryHackMe documentation site can be found within `<rootDir>/docs`.  Following the pre-existing structure all documents/articles are placed within their own sub-directories. This makes up the category URI for the request document, i.e. `/getting-started`. Inside of these sub-directories live both further nested categories and also individual markdown files which make up the resource URI. A complete example of this can be viewed as `https://docs.tryhackme.com/docs/getting-started/introduction`, which translates to `<rootDir>/docs/getting-started/introduction.md`. 
+All documentation markdown files (`*.md)`, which together make up the content visible on the TryHackMe documentation site can be found within `<rootDir>/docs`.
 
-To add a new document, either find a pre-exisitng location, if appropriate, or create a new sub-directory within `<rootDir>/docs` and create the relevant structure. Each markdown file ***MUST*** include a prefix header such as:
+Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated all belong to the category `general`, which is their parent directory.
+
+If you're adding a new article and feel it can be placed in an existing category, simply create a new markdown file `My Article.md` and drop it in the relevant directory. You need to make sure that you add the following header to any markdown file you add:
 
 ```markdown
 ---  
-id: introduction  
-title: Getting Started Introduction  
-sidebar_label: Introduction  
+id: articleID  
+title: My Article Title  
+sidebar_label: My Sidebar Label
 ---
 ``` 
-The `id` property is used by docusaurus in order to prefix the document as a unique entity. The `title` property is of course the document's title. The `sidebar_label` however is the name which is displayed when viewing any document within the documentation site. It is a navigatable sidebar and this property allows you to shorten the name to improve readability. You can see in the above example, this header prefix is taken from `/docs/getting-started/introduction`; as this lives within the sub-category `"Getting Started"` there is no need for the sidebar to contain the document's full title, as the context in which it introduces is pretty clear.
 
-Below is a screenshot to demonstrate this:
+As an example, let's say you want to add the article `My Awesome Room` to the existing category **Rooms**. First, navigate to `<rootDir>/docs/rooms`. You are now in the *Rooms* category. Now, you'd create a markdown file in this directory called `My Awesome Room.md` and add the following header to the very top of the file:
+
+```markdown
+---  
+id: my-awesome-room  
+title: My Awesome Room 
+sidebar_label: My Awesome Room 
+---
+```
+
+| key            | description |
+|---------------|---------------------------------------------------------------------------------------------------|
+| id           | The article ID, ideally just a kebab-case version of the article's title, i.e.  `My Awesome Room` | 
+| title         | The article's title, i.e. `My Awesome Room`                                                       |
+| sidebar_label | The title displayed in the sidebar, either the same as title or a shorter alternative             |
+
+Now, save your changes, and if running the local development server you should be able to directly navigate to the document passing the URI `docs/rooms/my-awesome-room`. Note how the `ID` property is treated as the resource URI.
+
+On the left of the document, there is the documentation sidebar, which looks something like this:
 
 ![Example Sidebar](./static/img/thm-docs-sidebar.png)
 
-Once you are happy with your changes, open `<rootDir>/sidebars.js` and following the predefined structure, add your new addition information to the config object. The structure is as follows:
+In order to add your new article to this sidebar, open `<rootDir>sidebars.js` and locate the `rooms` category. It should look something like this:
 
 ```js
-module.exports = {
-  docs: [
-    {
-      type: 'category',
-      label: 'Introduction',
-      items: [
-        'introduction/welcome',
-        'introduction/what-is-tryhackme',
-        'introduction/why-should-i-join'
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Getting Started',
-      items: [
-        'getting-started/introduction',
-        {
-          type: 'category',
-          label: 'Individual',
-          items: [
-            'getting-started/individual/creating-an-account',
-            'getting-started/individual/openvpn-configuration',
-            'getting-started/individual/deploying-your-first-vm'
-          ]
-        }
-
-        /* ... */
-
-      ]
-    }
+{
+  type: 'category',
+  label: 'Rooms',
+  items: [
+    'rooms/introduction-to-rooms',
+    'rooms/room-difficulty-levels',
+    'rooms/my-awesome-room' // ADD YOUR NEW ARTICLE REFERENCE HERE!
   ]
 }
 ```
 
-Lastly, if you would like to display your category on the homepage of the documentation site add your config object to `<rootDir/homepage-categories.js>`. The structure of this file is as follows:
+Once you are happy with your changes, save the file and re-visit the article in your browser. You will notice it should now appear on the sidebar! You can now open a pull-request to add your article to the live documentation site!
+
+If you wish to create a new category, the process above is the same, except you add your articles to your new category directory! The only difference is you will need to create the category object within the `<rootDir>/sidebars.js` file.
+
+For example, let's say you wanted `My Awesome Room` to live inside a new **Misc** category, you'd create a directory called 
+`misc` under `<rootDir>/docs/`, which would give you `<rootDir>/docs/misc`. Then, create your `my-awesome-room.md` file inside this directory, add the header as before. When editing `<rootDir>/sidebars.js`, you'd just add a new object for the `misc` category and then add your article as the first item, like so:
+
+```js
+{
+  type: 'category',
+  label: 'Misc',
+  items: [
+    'misc/my-awesome-room' // ADDED NEW CATEGORY AND ARTICLE!
+  ]
+}
+```
+
+Lastly, if you would like to display your category (*only for categories*) on the homepage of the site, add your config object to `<rootDir/homepage-categories.js>`. Simply open the file and append your category to the end of the object, ensuring you bump the `id` up 1 from the previous item. To add the `misc` category, we'd add the following:
+
+
 
 ```js
 module.exports = [
@@ -157,19 +172,22 @@ module.exports = [
     description: 'Want to get started with learning or teaching cyber security? This article is for you.',
     uri: '/docs/getting-started/introduction'
   },
+  
+  /**
+  * ADDED THE MISC CATEGORY TO THE END OF THE LIST, INCREMENTING THE ID BY 1.
+  */
+  
   {
     id: 5,
-    title: 'Introduction to Rooms',
-    description: 'This article explains the concept of rooms, what they are, how to complete them and where to start.',
-    uri: '/docs/rooms/introduction-to-rooms'
+    title: 'Misc',
+    description: 'This is my new category that houses a lot of miscellaneous things.',
+    uri: '/docs/misc/my-awesome-room' // THIS WILL BE THE URI TO THE FIRST DOCUMENT IN THE CATEGORY, IN THIS CASE IT'S THE ONLY DOCUMENT
   }
-
-/* ... */
 
 ]
 ```
 
-Once complete, commit your changes to a branch of your choosing and open a pull request for us to review and merge.
+Once complete, commit your changes and open a pull request for us to review and merge.
 
 > Note: although adding and amending documentation markdown files should not affect any of the pre-existing unit tests, please ensure you check this prior to raising a pull request. 
 > 
