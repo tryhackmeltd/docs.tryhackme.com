@@ -28,6 +28,15 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "MuirlandOracle",
+      "name": "MuirlandOracle",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/58998623?v=4",
+      "profile": "http://muirlandoracle.co.uk",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
