@@ -11,25 +11,9 @@ const HeaderComponent = ({ siteConfig, btnText, uri }) => {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className={classnames(
-              'getting-started-btn-container cta-getting-started bg-getting-started',
-              styles.getStarted,
-            )}
-            to={useBaseUrl(uri)}>
-            {btnText}
-          </Link>
-        </div>
       </div>
     </header>
   )
-}
-
-HeaderComponent.defaultProps = {
-  siteConfig: {},
-  btnText: 'Get Started',
-  uri: '/'
 }
 
 HeaderComponent.propTypes = {

@@ -18,6 +18,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'General',
+      items: [
+        'general/general',
+      ]
+    },
+    {
+      type: 'category',
       label: 'Getting Started',
       items: [
         'getting-started/introduction',

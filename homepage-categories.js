@@ -26,116 +26,32 @@ module.exports = [
   },
   {
     id: 2,
-    title: 'What is TryHackMe?',
-    description: 'Not entirely sure what TryHackMe is all about? This article will explain the core concepts behind what we offer.',
-    uri: '/docs/introduction/what-is-tryhackme'
-  },
-  {
-    id: 3,
-    title: 'Why should I Join?',
-    description: 'We know the reasons why you should join, but if you\'re still a bit sceptical then why not have a read.',
+    title: 'General',
+    description: 'Commonly asked questions and guides on using TryHackMe.',
     uri: '/docs/introduction/why-should-i-join'
   },
   {
-    id: 4,
-    title: 'Getting Started',
-    description: 'Want to get started with learning or teaching cyber security? This article is for you.',
+    id: 3,
+    title: 'OpenVPN',
+    description: 'Guides on setting up, connecting and troubleshooting OpenVPN connections.',
     uri: '/docs/getting-started/introduction'
   },
   {
-    id: 5,
-    title: 'Introduction to Rooms',
-    description: 'This article explains the concept of rooms, what they are, how to complete them and where to start.',
+    id: 4,
+    title: 'Room Creation',
+    description: 'How to create your own TryHackMe rooms for training, workshops and assessments.',
     uri: '/docs/rooms/introduction-to-rooms'
   },
   {
+    id: 5,
+    title: 'Sales and Billing',
+    description: 'Information on sales and billing.',
+    uri: '/docs/rooms/room-difficulty-levels'
+  },
+  {
     id: 6,
-    title: 'How Points Work',
-    description: 'This article covers the TryHackMe points system and how much is earned throughout the process of completing rooms.',
-    uri: '/docs/rooms/how-points-work'
-  },
-  {
-    id: 7,
-    title: 'Accessing Deployed VMs',
-    description: 'This article explains how to access a deployed VM when completing a room, assuming you have already setup OpenVPN.',
-    uri: '/docs/rooms/accessing-deployed-vms'
-  },
-  {
-    id: 8,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 9,
-    title: 'Creating a room',
-    description: 'Have some great content you\'d like to share? Not too sure how to create a new room? Then this article is for you!',
-    uri: '/docs/rooms/creating-a-room'
-  },
-  {
-    id: 10,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 11,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 12,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 13,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 14,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 15,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 16,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 17,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 18,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 19,
-    title: 'Room Difficulty Levels',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
-  {
-    id: 20,
-    title: 'Room Difficulty Levels tenth',
-    description: 'Unsure about your ability level or which rooms are best suited for you? Have a read and we\'ll guide you along.',
-    uri: '/docs/rooms/room-difficulty-levels'
-  },
+    title: 'TryHackMe for Teaching',
+    description: 'Guides on managing students, virtual labs and teaching content for Cybersecurity training.',
+    uri: '/docs/introduction/what-is-tryhackme'
+  }
 ]

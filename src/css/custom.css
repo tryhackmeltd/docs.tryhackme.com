@@ -22,15 +22,24 @@
   --ifm-navbar-background-color: #212c42;
   --ifm-hero-background-color: #212c42;
   --ifm-navbar-link-color: #fff;
-  --ifm-navbar-link-hover-color: #00ff00;
-  --ifm-navbar-link-active-color: #00ff00;
-  --ifm-footer-link-hover-color: #00ff00;
-  --ifm-footer-link-active-color: #00ff00;
+  --ifm-navbar-link-hover-color: #88cc14;
+  --ifm-navbar-link-active-color: #88cc14;
+  --ifm-footer-link-hover-color: #88cc14;
+  --ifm-footer-link-active-color: #88cc14;
   --ifm-button-background-color: transparent;
   --ifm-button-border-color: #ebedf0;
   --ifm-button-color: #ebedf0;
   --ifm-navbar-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
   --ifm-code-background: lightgrey;
+}
+
+body {
+	font-family: ubuntu;
+}
+
+.footer a:hover,
+.navbar a:hover {
+  text-decoration: none;
 }
 
 .markdown > ol > li > a {
@@ -67,7 +76,7 @@ html[data-theme='dark'] {
 
 /** SEPARATION ZONE **/
 
-.me-need-help-container-3d {
+/* .me-need-help-container-3d {
   color: #101832;
   cursor: pointer;
   display: inline-block;
@@ -115,8 +124,8 @@ html[data-theme='dark'] {
   background-color: white;
   background-size: 90%;
   transform: translate(0.5em, -0.5em);
-}
-.me-need-help-container-3d:hover:before {
+} */
+/* .me-need-help-container-3d:hover:before {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwYmNkZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwOTdkZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -moz-linear-gradient(45deg, #00bcdd 0%, #0097dd 100%);
@@ -184,10 +193,10 @@ html[data-theme='dark'] {
 .bg-nhc {
   background: #e7e7ea;
   border: 4px solid #000; /* used to be 3px */
-  color: #000; /* #101832 */
+  /* color: #000;
   font-weight: 500;
-}
-.bg-nhc:before, .bg-nhc:after {
+} */
+/* .bg-nhc:before, .bg-nhc:after {
   background: #a6aab3;
   border: 4px solid #000;
 }
@@ -196,10 +205,10 @@ html[data-theme='dark'] {
 }
 .bg-nhc:hover:before, .bg-nhc:hover:after {
   background: #88cc14;
-}
+}  */
 
 
-.getting-started-btn-container {
+/* .getting-started-btn-container {
   color: #101832;
   cursor: pointer;
   display: inline-block;
@@ -208,7 +217,6 @@ html[data-theme='dark'] {
   margin: auto 2em;
   position: relative;
   align-self: center;
-  /*text-transform: uppercase;*/
   border: 3px #00bcdd solid;
   border-image: linear-gradient(45deg, #00bcdd 0%, #ff00ff 100%);
   border-image-slice: 1 1 0 0;
@@ -314,7 +322,7 @@ html[data-theme='dark'] {
 }
 .cta-getting-started:hover:after {
   width: 100%;
-}
+} */
 
 .bg-getting-started {
   background: #e7e7ea;
@@ -332,5 +340,3 @@ html[data-theme='dark'] {
 .bg-getting-started:hover:before, .bg-getting-started:hover:after {
   background: #88cc14;
 }
-
-
