@@ -24,7 +24,7 @@ TryHackMe Documentation
 <p align="center">  
   <a aria-label="TryHackMe documentation" href="https://docs.tryhackme.com" target="_blank">📚 Read the documentation</a>  
   |  
-  <a aria-label="contribute to the docs" href="https://github.com/TryHackMeLtd/docs.tryhackme.com/#contributing"><b>Contributing to the documentation</b></a>  
+  <a aria-label="contribute to the docs" href="#-contributing"><b>Contributing to the documentation</b></a>  
 </p>  
   
 <p>  
