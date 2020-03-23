@@ -45,7 +45,8 @@ module.exports = {
         'rooms/what-are-rooms',
         'rooms/how-points-work',
         'rooms/accessing-deployed-vms',
-        'rooms/room-difficulty-levels'
+        'rooms/room-difficulty-levels',
+        'rooms/tryhackme-levels'
       ]
     },
     {
