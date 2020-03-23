@@ -40,3 +40,9 @@ Pressing **"Connect"** will launch a GUI with a bunch of text. After a couple of
 
 After approximately 10 seconds after successful connection, you can confirm your connection by returning to the now-populated **[TryHackMe "Access" page](https://tryhackme.com/access)**
 ![](https://i.imgur.com/Anj2hX8.png)
+
+
+## The "OpenVPN" Room
+Is a great walkthrough (and nice way to obtain some of your first points) into how to deploy an instance on the TryHackMe network, connect to it and retrieve a flag.
+
+**[You can access it here](https://tryhackme.com/room/openvpn)**
