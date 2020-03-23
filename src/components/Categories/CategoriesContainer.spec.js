@@ -26,10 +26,10 @@ describe('CategoriesContainer', () => {
     wrapper.unmount()
   })
 
-  it('should render with 6 CategoryComponent instances', () => {
+  it(`should render with ${homepageCategories.length} CategoryComponent instances`, () => {
     const wrapper = mount(<MemoryRouter initialEntries={['/']}><CategoriesContainer homepageCategories={homepageCategories} /></MemoryRouter>)
     const categoriesContainer = wrapper.find('CategoriesContainer')
-    expect(categoriesContainer.find('CategoriesComponent')).toHaveLength(6)
+    expect(categoriesContainer.find('CategoriesComponent')).toHaveLength(homepageCategories.length)
     wrapper.unmount()
   })
 
@@ -102,7 +102,7 @@ describe('CategoriesContainer', () => {
       </Router>
     )
     const categoriesContainer = wrapper.find('CategoriesContainer')
-    homepageCategories.filter((e,i) => i >= 0 && i <= 8)
+    homepageCategories.filter((e,i) => i >= 0 && i <= homepageCategories.length)
       .map((props, idx) => {
         it(`${idx}. navigates to the correct URI: ${props.uri}`, () => {
           const categoryComponent = categoriesContainer.find('CategoriesComponent').at(idx)

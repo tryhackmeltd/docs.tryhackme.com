@@ -3,6 +3,7 @@ import { shallow, mount } from 'enzyme'
 import { MemoryRouter } from '@docusaurus/router'
 import Home from '../../src/pages/index'
 import HeaderComponent from '../../src/components/Header/HeaderComponent'
+import homepageCategories from '../../homepage-categories'
 
 jest.mock('@docusaurus/Link', () => {
   return ({children}) => {
@@ -41,8 +42,8 @@ describe('Index (Home) Page', () => {
     it('renders 1x CategoriesContainer', () => {
       expect(main.find('CategoriesContainer')).toHaveLength(1)
     })
-    it('renders 6x CategoriesComponent', () => {
-      expect(main.find('CategoriesComponent')).toHaveLength(6)
+    it(`renders ${homepageCategories.length}x CategoriesComponent`, () => {
+      expect(main.find('CategoriesComponent')).toHaveLength(homepageCategories.length)
     })
     wrapper.unmount()
   })
