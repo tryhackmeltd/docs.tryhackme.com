@@ -11,16 +11,13 @@
     justify-content: center;
     font-weight: bold;
     font-size: 34px;
-    border-right: 2px solid #4d7a00;
-    border-bottom: 2px solid darkslateblue;
-    border-top: 2px solid var(--ifm-color-primary);
+    border-right: 2px solid #212c42;
     transition: box-shadow .3s ease-out, border .1s ease-in, font-size .1s ease-out;
 }
 
 .heroTabContainer:hover {
     cursor: pointer;
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.6);
-    border-color: #88cc14;
     font-size: 33px;
 }
 
