@@ -1,0 +1,1 @@
+export { default as HeroTabComponent } from './HeroTabComponent'

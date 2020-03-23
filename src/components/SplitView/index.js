@@ -1,0 +1,1 @@
+export { default as SplitViewComponent } from './SplitViewComponent'

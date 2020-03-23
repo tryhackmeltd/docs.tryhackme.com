@@ -5,10 +5,12 @@
 import React from 'react'
 import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import CategoriesContainer from '../components/Categories/CategoriesContainer'
-import HeaderComponent from '../components/Header/HeaderComponent'
-import SplitViewComponent from '../components/SplitView/SplitViewComponent'
-import BannerComponent from '../components/Banner/BannerComponent'
+import {
+  CategoriesContainer,
+  HeaderComponent,
+  SplitViewComponent,
+  BannerComponent
+} from '../components'
 import homepageCategories from '../../homepage-categories'
 
 function Home() {

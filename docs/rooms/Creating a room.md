@@ -3,11 +3,10 @@ id: creating-a-room
 title: Creating a Room
 sidebar_label: Creating a Room
 ---
-import { Highlight } from '../../src/components/Highlight/HighlightComponent'
 
-To create a room, visit [<Highlight color="#25c2a0">here</Highlight>](https://tryhackme.com/create-room) and click the **"Create room"** button. You will be greeted with a screen asking you to enter the title, description, and image.You should also add tags to make it easier to classify your room under a particular topic.
+To create a room, visit [here](https://tryhackme.com/create-room) and click the **"Create room"** button. You will be greeted with a screen asking you to enter the title, description, and image.You should also add tags to make it easier to classify your room under a particular topic.
 
-### 1. Visit <Highlight color="lightgrey">https://tryhackme.com/create-room</Highlight>
+### 1. Visit https://tryhackme.com/create-room
 ![Creating a room](https://tryhackme.com/img/room-initial.png)
 
 ### 2. Creating the room successfully should give you the following confirmation
