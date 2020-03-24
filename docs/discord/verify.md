@@ -3,7 +3,7 @@ id: verify
 title: Adding your TryHackMe Level to Discord
 sidebar_label: Verifying your Level
 ---
-Your [level](https://docs.tryhackme.com/docs/rooms/tryhackme-levels) on TryHackMe can be copied across as a role on the discord service. Right now this process is not automatic, so you will need to repeat the following steps whenever you level up on the website.
+Your [level](https://docs.tryhackme.com/docs/general/tryhackme-levels) on TryHackMe can be copied across as a role on the discord service. Right now this process is not automatic, so you will need to repeat the following steps whenever you level up on the website.
 
 1. First, navigate to your profile on TryHackMe and click on the "Other" Tab:
 
