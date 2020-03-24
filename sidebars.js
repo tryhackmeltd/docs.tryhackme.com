@@ -13,7 +13,8 @@ module.exports = {
       items: [
         'general/welcome',
         'general/what-is-tryhackme',
-        'general/why-should-i-join'
+        'general/why-should-i-join',
+        'general/tryhackme-levels'
       ]
     },
     {
@@ -46,7 +47,6 @@ module.exports = {
         'rooms/how-points-work',
         'rooms/accessing-deployed-vms',
         'rooms/room-difficulty-levels',
-        'rooms/tryhackme-levels'
       ]
     },
     {
