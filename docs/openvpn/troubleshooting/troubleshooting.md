@@ -9,8 +9,9 @@ This is most likely due to lack of permissions. For example, running OpenVPN on 
 
 ### Resolving on Linux:
 To resolve, perform the following:
-  1. Ensure there is no OpenVPN process running by launching a terminal and entering `sudo killall openvpn`
-  2. Then launch OpenVPN with administrative permissions, `**sudo** openvpn <path to config>`
+  1. Ensure there is no OpenVPN process running by launching a terminal and entering <br/>
+        `sudo killall openvpn`
+  2. Then launch OpenVPN with administrative permissions,     `sudo openvpn <path to config>`
 
 If you find yourself still unable to connect to the TryHackMe network, you will need to recreate your **[OpenVPN Configuration file](https://tryhacke.com/access)**, by pressing the **"Regenerate"** button like in the photo below.
 
