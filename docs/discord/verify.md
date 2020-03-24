@@ -1,5 +1,5 @@
 ---
-id: discord-verify
+id: verify
 title: Adding your TryHackMe Level to Discord
 sidebar_label: Verifying your Level
 ---
