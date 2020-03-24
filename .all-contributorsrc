@@ -37,6 +37,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "CMNatic",
+      "name": "Ben Eriksson",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4163116?v=4",
+      "profile": "https://cmnatic.co.uk",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

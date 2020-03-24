@@ -69,6 +69,14 @@ module.exports = {
       items: [
         'teaching/teaching-getting-started',
       ]
+    },
+    {
+      type: 'category',
+      label: 'Discord',
+      items: [
+        'discord/discord-getting-started',
+        'discord/verify',
+      ]
     }
   ]
 }

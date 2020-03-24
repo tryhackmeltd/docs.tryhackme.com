@@ -53,5 +53,11 @@ module.exports = [
     title: 'TryHackMe for Teaching',
     description: 'Guides on managing students, virtual labs and teaching content for Cybersecurity training.',
     uri: '/docs/teaching/teaching-getting-started'
+  },
+  {
+    id: 7,
+    title: 'Discord',
+    description: 'FAQs related to the TryHackMe Discord Server.',
+    uri: '/docs/discord/discord-getting-started'
   }
 ]
