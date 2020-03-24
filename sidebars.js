@@ -74,7 +74,8 @@ module.exports = {
       type: 'category',
       label: 'Discord',
       items: [
-        'discord/verify'
+        'discord/discord-getting-started',
+        'discord/verify',
       ]
     }
   ]
