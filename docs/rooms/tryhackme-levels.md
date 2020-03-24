@@ -3,7 +3,7 @@ id: tryhackme-levels
 title: TryHackMe Levels System
 sidebar_label: TryHackMe Levels
 ---
-Tryhackme works on a level system. This is also [echoed over into the Discord server](https://docs.tryhackme.com/docs/discord/discord-verify), if you're a member of that.
+Tryhackme works on a level system. This is also [echoed over into the Discord server](https://docs.tryhackme.com/docs/discord/verify), if you're a member of that.
 Levels are obtained by playing rooms on the website. You will get a certain number of [points](https://docs.tryhackme.com/docs/rooms/how-points-work) for each question that you complete. Challenge rooms give more points than walkthrough rooms, and recent rooms give more points still.
 There are currently 13 levels:
 ```
