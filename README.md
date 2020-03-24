@@ -11,7 +11,7 @@ TryHackMe Documentation
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
   <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END --></a>
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
@@ -226,6 +226,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://twitter.com/0x8445"><img src="https://avatars0.githubusercontent.com/u/23476599?v=4" width="100px;" alt=""/><br /><sub><b>Ben Spring</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Code">💻</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Documentation">📖</a> <a href="#design-benspring" title="Design">🎨</a></td>
     <td align="center"><a href="http://muirlandoracle.co.uk"><img src="https://avatars0.githubusercontent.com/u/58998623?v=4" width="100px;" alt=""/><br /><sub><b>MuirlandOracle</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=MuirlandOracle" title="Documentation">📖</a></td>
     <td align="center"><a href="https://cmnatic.co.uk"><img src="https://avatars3.githubusercontent.com/u/4163116?v=4" width="100px;" alt=""/><br /><sub><b>Ben Eriksson</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=CMNatic" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/MichaelCoding25"><img src="https://avatars1.githubusercontent.com/u/43636601?v=4" width="100px;" alt=""/><br /><sub><b>Michael Spector</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=MichaelCoding25" title="Documentation">📖</a></td>
   </tr>
 </table>
 
