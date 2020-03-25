@@ -13,4 +13,4 @@ Your [level](https://docs.tryhackme.com/docs/general/tryhackme-levels) on TryHac
 
 3. Click on the Bot and type `!verify` into the message box that appears. Press Space, then paste your token.
 
-4. Press "Enter and the bot will update your roles!
+4. Press "Enter" and the bot will update your roles!
