@@ -231,7 +231,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jc01.ninja/"><img src="https://avatars2.githubusercontent.com/u/20073818?v=4" width="100px;" alt=""/><br /><sub><b>James</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=NinjaJc01" title="Documentation">📖</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a> <a href="#security-VladBirgauanu" title="Security">🛡️</a></td>
   </tr>
 </table>
 
