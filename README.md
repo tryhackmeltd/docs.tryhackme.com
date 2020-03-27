@@ -11,7 +11,7 @@ TryHackMe Documentation
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
   <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END --></a>
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
@@ -229,6 +229,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/MichaelCoding25"><img src="https://avatars1.githubusercontent.com/u/43636601?v=4" width="100px;" alt=""/><br /><sub><b>Michael Spector</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=MichaelCoding25" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Swafox"><img src="https://avatars3.githubusercontent.com/u/25106596?v=4" width="100px;" alt=""/><br /><sub><b>Swafox</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Swafox" title="Documentation">📖</a></td>
     <td align="center"><a href="https://jc01.ninja/"><img src="https://avatars2.githubusercontent.com/u/20073818?v=4" width="100px;" alt=""/><br /><sub><b>James</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=NinjaJc01" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a></td>
   </tr>
 </table>
 
