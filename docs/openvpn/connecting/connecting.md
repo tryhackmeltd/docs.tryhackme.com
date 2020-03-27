@@ -1,7 +1,7 @@
 ---
 id: openvpn-connecting
-title: Connecting with OpenVPN
-sidebar_label: Connecting with OpenVPN
+title: Connecting With OpenVPN
+sidebar_label: Connecting With OpenVPN
 ---
 
 Firstly, you will need to download the configuration file associated with your account. This is done by visiting the **[TryHackMe "Access" page](https://tryhackme.com/access)**
@@ -33,7 +33,6 @@ Your configuration file will now appear in the OpenVPN interface, with a little 
 ![Running OpenVPN Config](https://i.imgur.com/m1oKDpa.png)
 
 Pressing **"Connect"** will launch a GUI with a bunch of text. After a couple of seconds, a Windows-notification will appear on the bottom-right, stating that your connection was successful.
-
 ![Windows Notification Indicating Successful Connection](https://i.imgur.com/qgoQ0A6.png)
 
 ## Verifying Connectivity
