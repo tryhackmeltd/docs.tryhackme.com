@@ -13,7 +13,8 @@ module.exports = {
       items: [
         'general/welcome',
         'general/what-is-tryhackme',
-        'general/why-should-i-join'
+        'general/why-should-i-join',
+        'general/tryhackme-levels'
       ]
     },
     {
@@ -33,7 +34,7 @@ module.exports = {
           type: 'category',
           label: 'Troubleshooting',
           items: [
-            'openvpn/troubleshooting/openvpn-troubleshooting-multivpn',
+            'openvpn/troubleshooting/openvpn-troubleshooting',
           ]
         },
       ]
@@ -45,7 +46,7 @@ module.exports = {
         'rooms/what-are-rooms',
         'rooms/how-points-work',
         'rooms/accessing-deployed-vms',
-        'rooms/room-difficulty-levels'
+        'rooms/room-difficulty-levels',
       ]
     },
     {
@@ -67,6 +68,14 @@ module.exports = {
       label: 'Teaching',
       items: [
         'teaching/teaching-getting-started',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Discord',
+      items: [
+        'discord/discord-getting-started',
+        'discord/verify',
       ]
     }
   ]

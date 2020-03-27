@@ -28,6 +28,51 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "MuirlandOracle",
+      "name": "MuirlandOracle",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/58998623?v=4",
+      "profile": "http://muirlandoracle.co.uk",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "CMNatic",
+      "name": "Ben Eriksson",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4163116?v=4",
+      "profile": "https://cmnatic.co.uk",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "MichaelCoding25",
+      "name": "Michael Spector",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43636601?v=4",
+      "profile": "https://github.com/MichaelCoding25",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Swafox",
+      "name": "Swafox",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25106596?v=4",
+      "profile": "https://github.com/Swafox",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "NinjaJc01",
+      "name": "James",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20073818?v=4",
+      "profile": "https://jc01.ninja/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
