@@ -34,7 +34,7 @@ module.exports = {
           type: 'category',
           label: 'Troubleshooting',
           items: [
-            'openvpn/troubleshooting/openvpn-troubleshooting-multivpn',
+            'openvpn/troubleshooting/openvpn-troubleshooting',
           ]
         },
       ]
