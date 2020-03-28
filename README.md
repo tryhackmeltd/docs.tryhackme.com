@@ -77,7 +77,7 @@ $ npm start
 #### 3. Editing `<rootDir>/docs`  
 All documentation markdown files (`*.md)`, which together make up the content visible on the TryHackMe documentation site can be found within `<rootDir>/docs`.
 
-Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated as all belong to the category `general`, which is their parent directory.
+Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated as all belonging to the category `general`, which is their parent directory.
 
 If you're adding a new article and feel it can be placed in an existing category, simply create a new markdown file `My Article.md` and drop it in the relevant directory. You need to make sure that you add the following header to any markdown file you add:
 
