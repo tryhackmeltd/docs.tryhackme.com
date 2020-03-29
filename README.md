@@ -10,8 +10,8 @@ TryHackMe Documentation
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
+      <img alt="Vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/tryhackmeltd/docs.tryhackme.com" />
   <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    <img alt="Vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/tryhackmeltd/docs.tryhackme.com" />
 <img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END --></a>
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
