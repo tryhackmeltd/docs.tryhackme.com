@@ -15,7 +15,9 @@
         "test",
         "code",
         "design",
-        "doc"
+        "doc",
+        "bug",
+        "review"
       ]
     },
     {
