@@ -15,7 +15,9 @@
         "test",
         "code",
         "design",
-        "doc"
+        "doc",
+        "bug",
+        "review"
       ]
     },
     {
@@ -26,7 +28,8 @@
       "contributions": [
         "code",
         "doc",
-        "design"
+        "design",
+        "review"
       ]
     },
     {
@@ -63,6 +66,25 @@
       "profile": "https://github.com/Swafox",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "NinjaJc01",
+      "name": "James",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20073818?v=4",
+      "profile": "https://jc01.ninja/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "VladBirgauanu",
+      "name": "Chevalier",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35664747?v=4",
+      "profile": "https://github.com/VladBirgauanu",
+      "contributions": [
+        "doc",
+        "security"
       ]
     }
   ],

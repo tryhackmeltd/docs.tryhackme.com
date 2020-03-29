@@ -68,6 +68,9 @@ module.exports = {
       label: 'Teaching',
       items: [
         'teaching/teaching-getting-started',
+        'teaching/why-choose-us',
+        'teaching/reviews-and-feedbacks',
+        'teaching/contact-us'
       ]
     },
     {

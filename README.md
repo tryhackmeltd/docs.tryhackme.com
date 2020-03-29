@@ -10,8 +10,9 @@ TryHackMe Documentation
     <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
 </a>  
   <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
+  <a href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com"><img src="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com/badge.svg" alt="Known Vulnerabilities"/></a>
   <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END --></a>
   <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
@@ -77,7 +78,7 @@ $ npm start
 #### 3. Editing `<rootDir>/docs`  
 All documentation markdown files (`*.md)`, which together make up the content visible on the TryHackMe documentation site can be found within `<rootDir>/docs`.
 
-Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated as all belong to the category `general`, which is their parent directory.
+Directories are treated as categories, and the markdown files are treated as articles, each belonging to a category. As an example, take `docs/general/welcome`; the `general` directory contains multiple markdown files (articles), which are treated as all belonging to the category `general`, which is their parent directory.
 
 If you're adding a new article and feel it can be placed in an existing category, simply create a new markdown file `My Article.md` and drop it in the relevant directory. You need to make sure that you add the following header to any markdown file you add:
 
@@ -222,12 +223,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://twitter.com/Matt_Kent9"><img src="https://avatars1.githubusercontent.com/u/5375354?v=4" width="100px;" alt=""/><br /><sub><b>Matt Kent</b></sub></a><br /><a href="#infra-Kent55" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Tests">⚠️</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Code">💻</a> <a href="#design-Kent55" title="Design">🎨</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://twitter.com/0x8445"><img src="https://avatars0.githubusercontent.com/u/23476599?v=4" width="100px;" alt=""/><br /><sub><b>Ben Spring</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Code">💻</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Documentation">📖</a> <a href="#design-benspring" title="Design">🎨</a></td>
+    <td align="center"><a href="https://twitter.com/Matt_Kent9"><img src="https://avatars1.githubusercontent.com/u/5375354?v=4" width="100px;" alt=""/><br /><sub><b>Matt Kent</b></sub></a><br /><a href="#infra-Kent55" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Tests">⚠️</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Code">💻</a> <a href="#design-Kent55" title="Design">🎨</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Kent55" title="Documentation">📖</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3AKent55" title="Bug reports">🐛</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/pulls?q=is%3Apr+reviewed-by%3AKent55" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://twitter.com/0x8445"><img src="https://avatars0.githubusercontent.com/u/23476599?v=4" width="100px;" alt=""/><br /><sub><b>Ben Spring</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Code">💻</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=benspring" title="Documentation">📖</a> <a href="#design-benspring" title="Design">🎨</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/pulls?q=is%3Apr+reviewed-by%3Abenspring" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://muirlandoracle.co.uk"><img src="https://avatars0.githubusercontent.com/u/58998623?v=4" width="100px;" alt=""/><br /><sub><b>MuirlandOracle</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=MuirlandOracle" title="Documentation">📖</a></td>
     <td align="center"><a href="https://cmnatic.co.uk"><img src="https://avatars3.githubusercontent.com/u/4163116?v=4" width="100px;" alt=""/><br /><sub><b>Ben Eriksson</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=CMNatic" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/MichaelCoding25"><img src="https://avatars1.githubusercontent.com/u/43636601?v=4" width="100px;" alt=""/><br /><sub><b>Michael Spector</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=MichaelCoding25" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Swafox"><img src="https://avatars3.githubusercontent.com/u/25106596?v=4" width="100px;" alt=""/><br /><sub><b>Swafox</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=Swafox" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://jc01.ninja/"><img src="https://avatars2.githubusercontent.com/u/20073818?v=4" width="100px;" alt=""/><br /><sub><b>James</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=NinjaJc01" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a> <a href="#security-VladBirgauanu" title="Security">🛡️</a></td>
   </tr>
 </table>
 

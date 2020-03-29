@@ -82,11 +82,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/tryhackmeltd/docs.tryhackme.com/edit/master',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
+        }
+      }
     ]
     ]
 }
