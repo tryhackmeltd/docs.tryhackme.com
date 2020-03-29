@@ -6,7 +6,8 @@ cache:
   npm: true
 install:
   - npm i
-  - npm install -g codecov
+  - npm install -g snyk
+  - snyk protect
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
