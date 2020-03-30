@@ -1,12 +1,10 @@
 ---
-id: reviews-and-feedbacks
+id: reviews-and-feedback
 title: Reviews And Feedback
 sidebar_label: Reviews And Feedback
 ---
 
 ## Reviews and Feedback
-
-Below you can see a few of our reviews
 
 >Teaching students Ethical Hacking requires a considerable amount of time to develop and set-up laboratory experiments. TryHackMe has significantly reduced our development time and provided students with a platform that they can use at any time and from any system. It has been integral in our Ethical Hacking unit. Having access to a wide range of pre-existing teaching content that can be easily modified has allowed our staff to focus on teaching students rather than creating realist machines and scenarios. The platform allows students to put their theoretical knowledge into practice, and we can see their high level of engagement through the teaching dashboard
  
