@@ -69,7 +69,7 @@ module.exports = {
       items: [
         'teaching/teaching-getting-started',
         'teaching/why-choose-us',
-        'teaching/reviews-and-feedbacks',
+        'teaching/reviews-and-feedback',
         'teaching/contact-us'
       ]
     },
