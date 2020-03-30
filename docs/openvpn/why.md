@@ -11,3 +11,6 @@ Note, if you are a subscriber, TryHackMe provides already-connected instances of
 1.  Directly within your Browser
 2.  Remote Desktop Protocol (RDP) (I.e. Remmina for Linux, or Microsoft's client if using Windows)
 3.  SSH (Secure Socket Shell)
+
+If you wish to access this facility as a subscriber, You can do so by joining the following room:
+**[Kali Linux Instances](https://tryhackme.com/room/kali)**
