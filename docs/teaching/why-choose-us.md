@@ -14,7 +14,7 @@ We offer you over 100 pre-existing Cybersecurity courses and challenges, that yo
 The content we offer is developed for all experience levels , using realistic scenarios as we want students to learn skills that can be applied in the industry.
 Your students will be able to deploy their own virtual machines in the cloud, instantly ready to be compromised!
 
-### No Evironment Needed
+### No Environment Needed
 Have your students deploy their own Kali Linux machine with all the necessary security tools and that can be control straight from their browser without any additional set up!
 
 Remove the need to get a complicated lab setup, so you can instead get straight into the teaching.
