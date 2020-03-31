@@ -14,7 +14,8 @@ module.exports = {
         'general/welcome',
         'general/what-is-tryhackme',
         'general/why-should-i-join',
-        'general/tryhackme-levels'
+        'general/tryhackme-levels',
+        'general/researching-and-asking-for-help'
       ]
     },
     {
