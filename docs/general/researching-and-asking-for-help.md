@@ -34,6 +34,6 @@ A fantastic attribute to TryHackMe is the community itself. Other users like to 
 
 However, we can't solely rely on users to be there 24/7 for each other, nor validate what they are saying. TryHackMe has users who throughout time have consistently guided other users through issues they experience...from technical issues relating to connecting to the network to providing resources to help resolve challenges.
 
-**These Mentors, much like Moderators are not paid** and are users of the TryHackMe platform such as yourself! Because of this, please be patient. If your answer isn't answered by any user - someone will get too it as and when they can! There is no need to post your issue in every and all channels.
+**These Mentors, much like Moderators are not paid** and are users of the TryHackMe platform such as yourself! Because of this, please be patient. If your answer isn't answered by any user - someone will get to it as and when they can! There is no need to post your issue in every and all channels.
 
 Finally, **Community Mentors** don't give answers directly but instead provide resources that will help you resolve your issue yourself! All in the name of learning...
