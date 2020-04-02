@@ -59,5 +59,11 @@ module.exports = [
     title: 'Discord',
     description: 'FAQs related to the TryHackMe Discord Server.',
     uri: '/docs/discord/discord-getting-started'
+  },
+  {
+    id: 8,
+    title: 'The "King Of The Hill" Gamemode',
+    description: 'Everything you need to know regarding the "King Of The Hill" gamemode.',
+    uri: '/docs/koth/king-of-the-hill'
   }
 ]

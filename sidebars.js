@@ -81,6 +81,13 @@ module.exports = {
         'discord/discord-getting-started',
         'discord/verify',
       ]
+    },
+    {
+      type: 'category',
+      label: 'King Of The Hill (KOTH)',
+      items: [
+        'koth/king-of-the-hill',
+      ]
     }
   ]
 }
