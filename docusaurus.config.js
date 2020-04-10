@@ -8,6 +8,10 @@ module.exports = {
   projectName: 'docs.tryhackme.com', // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
+    algolia: {
+      apiKey: 'f6bc764ab829843e80b2e0fbca995f36', // search-only API key (safe for front-end usage)
+      indexName: 'tryhackme'
+    },
     navbar: {
       title: 'TryHackMe Documentation',
       logo: {
