@@ -13,7 +13,7 @@ script:
   - npm t && npm run build
 deploy:
   provider: script
-  script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage && GIT_USER="${GH_NAME}" npm run deploy
+  script: jest --config=config/jest.config.js --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage && GIT_USER="${GH_NAME}" npm run deploy
   skip_cleanup: true
   on:
     branch: master

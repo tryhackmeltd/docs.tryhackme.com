@@ -8,6 +8,7 @@
 .docusaurus
 .cache-loader
 coverage
+lsp
 
 # Misc
 .DS_Store
