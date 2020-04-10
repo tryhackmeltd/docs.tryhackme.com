@@ -11,7 +11,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "test": "jest --coverage"
+    "test": "jest --config=config/jest.config.js --coverage"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.43",
