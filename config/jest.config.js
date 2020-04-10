@@ -6,7 +6,7 @@ const ignorePatterns = [
 ]
 
 module.exports = {
-  rootDir: path.resolve(__dirname),
+  rootDir: '../',
   globals: {
     "NODE_ENV": "test"
   },
@@ -15,9 +15,9 @@ module.exports = {
   testPathIgnorePatterns: ignorePatterns,
   coveragePathIgnorePatterns: ignorePatterns,
   transformIgnorePatterns: ['/node_modules/(?!@docusaurus)'],
-  setupFilesAfterEnv: ['./jestSetup.js'],
+  setupFilesAfterEnv: ['./config/jestSetup.js'],
   transform: {
-    '^.+\\.[jt]sx?$': 'babel-jest',
+    '^.+\\.[jt]sx?$': ['babel-jest', { configFile: './config/babel.config.js' }],
     ".+\\.(css|styl|less|sass|scss)$": "jest-transform-css",
   },
   moduleNameMapper: {
