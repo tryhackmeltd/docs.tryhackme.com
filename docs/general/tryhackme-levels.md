@@ -35,6 +35,6 @@ These are obtained at the following number of points:
 * 0xA [Wizard] -- 60000
 * 0xB [Master] -- 75000
 * 0xC [Guru]   -- 85000
-* 0xD [God]    -- 10000
+* 0xD [God]    -- 100000
 
 ```
