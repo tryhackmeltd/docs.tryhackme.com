@@ -31,6 +31,9 @@ As a good rule of thumb, the only need to connect to the TryHackMe network is to
 
   1. Revisit the [OpenVPN Connection Guide for Windows](http://localhost:3000/docs/openvpn/connecting/openvpn-connecting#connecting-via-windows) and ensure you are running as an administrator.
 
+## Not receiving reverse shells or Metasploit exploits not creating sessions
+This is normally either incorrect exploit settings (check this first!) or people using a kali VM but running the VPN connection on their host machine.
+The reverse shell will try and connect to the IP address, but that IP address points to the host rather than the VM so a connection will not be made.
 
 ## Intermittent Connection (Random Drop-outs):
 This issue usually stems from multiple connections to the TryHackMe network. However, look for external factors to OpenVPN as to why you are experiencing issues first:
@@ -38,6 +41,7 @@ This issue usually stems from multiple connections to the TryHackMe network. How
 ### Checking for External Issuses:
   1. In this setup, OpenVPN does not route all of your internet traffic through TryHackMe - are you able to connect to external websites like google?
   2. Are you using WiFi? Perhaps there could be interference or distancing issues resulting in a weak signal that would disrupt connectivity.
+  3. Are you in a country that blocks OpenVPN traffic? (China, Egypt)
 
 ### Checking for OpenVPN Issues:
 Most errors relating to maintaining connectivity to TryHackMe, despite a good connection otherwsie stems from having multiple sessions (or connections) with OpenVPN.
@@ -51,3 +55,5 @@ For a stable connection, **OpenVPN needs to be ran only once**. Otherwise it wil
 3. Type `sudo killall openvpn` into your [linux] terminal and press enter.
 
 4. Start the VPN with `sudo openvpn <path-to-config>`
+
+Please note these instructions were written prior to Kali 2020. For Kali 2020 onwards and other distros that do not use root user by default, you can expect another line starting with "sudo". This is not an openvpn process, it's a sudo process.
