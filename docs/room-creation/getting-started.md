@@ -69,4 +69,5 @@ Limitation in including connection documentation unless it is part of a very lar
 - The limits on VM OS types are because of AWS CLI, not imposed by TryHackMe. Notably, this means you cannot use any Debian after Debian 8.
 - Windows installs MUST be booting off an MBR partition, GPT will not work and will fail to convert
 - DO NOT activate Windows. TryHackMe uses AWS licensing for these
-
+For more information on the AWSCLI requirements, see https://docs.aws.amazon.com/vm-import/latest/userguide/vmie_prereqs.html
+If you do not follow these requirements, VM conversion will fail.
