@@ -88,6 +88,14 @@ module.exports = {
       items: [
         'koth/king-of-the-hill',
       ]
+    },
+    {
+      type: 'category',
+      label: 'API',
+      items: [
+        'api-docs/introduction',
+        'api-docs/api-endpoints'
+      ]
     }
   ]
 }
