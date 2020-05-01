@@ -20,14 +20,13 @@ The process to start allocating tasks to users is below:
 
 ## Guidance/stipulations for creating rooms
 - Any brute force actions should take five minutes or less
-  - Timing-attacks should have a long enough delay to be noticeable
--If non-standard tools are being used, consider mentioning them in hints
+- Timing attacks should have a long enough delay to be noticeable
+- If non-standard tools are being used, consider mentioning them in hints
 
 ### Questions
 - 15 questions max unless you have a very lengthy walkthrough AND have explicit approval from the admin team - Avoids excessively point-heavy rooms
 ### Room Avatar
-- Avatars should have a transparent background
-- Implemented for dark theme purposes
+- Avatars should have a transparent background, for dark theme purposes
 - Appropriate avatars should be added to all rooms which are to be made public, the avatar should be related to the room's concepts or theme and should be site appropriate
 ### Difficulty Level
 Clarity depends on the level of difficulty
@@ -46,16 +45,15 @@ Clarity depends on the level of difficulty
   - Ex: Red Primer
 - General theme
   - Ex: Spiderman
-Major topic covered
-- PrivEsc, Linux, web
-- CVE Numbers
-- Vulnerabilities
-  - SQLi, RCE, etc.
+- Major topic covered
+  - PrivEsc, Linux, web
+  - CVE Numbers
+  - Vulnerabilities SQLi, RCE, etc.
 - Tools used
   - Burp Suite, Metasploit, SQLMap etc.
 - Vulnerable Protocols
   - SMB, POP3, etc.
-Rooms which do not include tags will not be made public although challenges have some leniency due to spoilers
+Rooms which do not include tags will not be made public although challenges have some leniency due to spoilers.
 ### Question considerations
 - Depends on the difficulty level
 - Validation of command output
