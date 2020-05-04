@@ -69,6 +69,8 @@ The expected successful response is
 ]
 ```
 
+**Data will only show for users that are in the room, and that have been created through the `/api/external/authenticate` endpoint. If you've generated a user through this endpoint, they'll also need to sign up and join the room.**
+
 ## Retrieving Users
 This endpoint is used to retrieve all the users that have signed up using the API.
 ```
