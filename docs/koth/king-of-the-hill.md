@@ -5,11 +5,11 @@ sidebar_label: King of the Hill
 ---
 
 ## What is "King of the Hill"?
-Only accessible to subscribers within TryHackMe, King of the Hill (Koth) is a competitive hacking game, where you play against 6 other hackers to compromise a machine and then patch its vulnerabilities to stop other players from also gaining access. The longer you maintain your access, the more points you get.
+King of the Hill (KoTH) is a competitive hacking game, where you play against up to 5 other hackers to compromise a machine and then patch its vulnerabilities to stop other players from also gaining access. The longer you maintain your access, the more points you get.
 
 Traditionally you are taught **how** to compromise a machine to claim ownership of it. TryHackMe provides plenty of content on how to do so. However, an often overlooked aspect of hacking is maintaining access.
 
-Koth inspires you to not only apply the knowledge gained from the content within the platform in a competitive, timed setting; Koth also encourages the use of blue-team tactics to prevent others from using similar methods such as those that you employed to compromise the machine.
+KoTH inspires you to not only apply the knowledge gained from the content within the platform in a competitive, timed setting; Koth also encourages the use of blue-team tactics to prevent others from using similar methods such as those that you employed to compromise the machine.
 
 ### The Lobby System
 The platform creates groups in the form of a lobby. These lobbies consist of a **maximum of 6 participating** players but can have spectators.
@@ -23,7 +23,7 @@ When creating a lobby, you will be given the option to specify whether or not th
 
 ![create-lobby-private](https://i.imgur.com/3wBo1Pm.png)
 
-When you create a private lobby, a unique invite link will be generated. You can share this link with the members that you want to participate against. This is found under the "Settings" menu (top right) within the lobby.
+When you create a private lobby, a unique invite link will be generated. You can share this link with the members that you want to participate against. This is found under the "Settings" menu (top right) within the lobby.  Private lobbies are only available to subscribers.
 
 You can also invite "Spectators" to your lobby. They will be able to see the lobby as you see it - such as "King" changes but will have no ability to interfere with the on-going game.
 
@@ -37,7 +37,7 @@ If there is a public lobby that is looking for players, you can simply join and 
 ## The Rules of the Game Mode:
 To prevent cheating and ensure this game is realistic yet fair to everyone, all players must adhere to the following rules:
 
- 1. The machine assigned to the lobby must not be rendered completely unavailable to other members. For example, this includes **denying all traffic** through firewall rules, terminating **all services that will physically render the machine inoperable.**
+ 1. The machine assigned to the lobby must not be rendered completely unavailable to other members. For example, this includes **denying all traffic** through firewall rules, terminating **all services that will physically render the machine inoperable.** 
 2. No deleting of flags placed throughout the machine.
 3. No closing of the port: 9999
 4. No Denial of Service (DoS) attacks whatsoever to and from the machine itself nor members of the lobby or any other infrastructure.
