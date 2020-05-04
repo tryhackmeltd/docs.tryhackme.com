@@ -55,6 +55,7 @@ module.exports = {
       label: 'Room Creation',
       items: [
         'room-creation/room-creation-getting-started',
+        'room-creation/the-review-process',
       ]
     },
     {
