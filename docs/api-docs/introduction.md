@@ -11,4 +11,4 @@ Users that are part of the [TryHackMe Teaching Program](tryhackme.com/teaching) 
 * retrieve users room data
 * retrieve public rooms
 
-View the list of available API endpoints on the next page. To get access to the teaching program, send an email to hello@tryhackme.com
+View the list of available API endpoints on the next page. To get access to the teaching program, send an email to education@tryhackme.com
