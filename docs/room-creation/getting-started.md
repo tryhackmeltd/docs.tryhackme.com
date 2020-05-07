@@ -8,7 +8,7 @@ sidebar_label: Getting Started
 
 Rooms are a virtual space where you can easily allocate tasks to users. You can create rooms for challenges (CTF's) or to run a particular workshop or training session.
 
-Material (Virtual machines or downloads) are linked to a task, rather than a room. This mean you can have several virtual machines for a single room.
+Material (Virtual machines or downloads) are linked to a task, rather than a room. This means you can have several virtual machines for a single room.
 
 The process to start allocating tasks to users is below:
 
@@ -17,7 +17,10 @@ The process to start allocating tasks to users is below:
 3. [Assign tasks for a room](https://tryhackme.com/assign-tasks).
 4. Give your users your room code and have them join.
 5. The users in the room will now be informed to complete the given task.
+## Making your room public
+Once you submit your room to be made public, it will be reviewed. If it's found not to work, or there's missing content or anything from the list below that's not quite right then it will either be rejected or a room reviewer will get in touch.
 
+We take plagiarism very seriously. Please don't submit anything that you do not have the rights to use. This includes written material, VMs and more.
 ## Guidance/stipulations for creating rooms
 - Any brute force actions should take five minutes or less
 - Timing attacks should have a long enough delay to be noticeable
