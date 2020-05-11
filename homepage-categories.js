@@ -65,5 +65,11 @@ module.exports = [
     title: 'The "King Of The Hill" Gamemode',
     description: 'Everything you need to know regarding the "King Of The Hill" gamemode.',
     uri: '/docs/koth/king-of-the-hill'
+  },
+  {
+    id: 9,
+    title: 'API Docs',
+    description: 'TryHackMe API docs and service endpoints.',
+    uri: '/docs/api-docs/introduction'
   }
 ]
