@@ -121,8 +121,8 @@ The expected successful response is as follows
 {}
 ```
 
-## Retrieve Public Rooms
-This endpoint is used to retrieve details of public rooms on the platform.
+## Retrieve Rooms
+This endpoint is used to retrieve details of public and the user's private rooms on the platform. The users field is only returned for a room that owned/managed by the API user.
 ```
 GET https://tryhackme.com/external/api/rooms
 ```
@@ -139,6 +139,8 @@ The expected successful response is as follows
         "code": String,
         "title": String,
         "description": String
+        'public': Boolean
+        'users': [String]
     },
 ]
 ```
@@ -158,6 +160,36 @@ The expected successful response is as follows
 ```
 {
     "roomExists": Boolean
+}
+```
+
+## Room Questions
+This endpoint is used to retrieve questions associated with a {ROOM-CODE}. This endpoint retrieves questions associated with public rooms and private rooms owned by the API user.
+```
+GET https://tryhackme.com/external/api/questions/{ROOM-CODE}
+```
+
+The API key needs to be provided inside the THM-API-KEY header as follows
+```
+THM-API-KEY: {API-KEY}
+```
+
+The expected successful response is as follows
+```
+{
+    "questions": [
+        {
+            "taskNo": Integer,
+            "infoList": [
+                {
+                    "questionNo": Integer,
+                    "question": String,
+                    "answer": String,
+                    "hint": String,
+                    "extraPoints": Integer
+                }
+            ]
+        }
 }
 ```
 
