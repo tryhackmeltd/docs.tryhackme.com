@@ -87,6 +87,15 @@
         "doc",
         "security"
       ]
+    },
+    {
+      "login": "ashu-savani",
+      "name": "ashu-savani",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15062856?v=4",
+      "profile": "https://github.com/ashu-savani",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
