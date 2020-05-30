@@ -19,7 +19,7 @@ If you find yourself still unable to connect to the TryHackMe network, you will 
 
 ![Regen OpenVPN File](https://i.imgur.com/jCnkADu.png)
 
-After allowing the process to complete, you will now need to redownload this configuration file and connect via the steps outlined in the **[OpenVPN Connection Guide](http://localhost:3000/docs/openvpn/connecting/openvpn-connecting)**
+After allowing the process to complete, you will now need to redownload this configuration file and connect via the steps outlined in the **[OpenVPN Connection Guide](https://docs.tryhackme.com/docs/openvpn/connecting/openvpn-connecting)**
 
 Even after this you still cannot connect, please get in touch with support.
 
@@ -29,7 +29,9 @@ We have noticed reports of difficulty connecting to the TryHackMe network using 
 
 As a good rule of thumb, the only need to connect to the TryHackMe network is to use tools against instances that are often not supported on Windows. I.e. `netcat` reverse shells. Moreover, WSL even though it is *Linux*, launching OpenVPN as if it were will not work. We encourage the use of Linux as much as possible for compatibility.
 
-  1. Revisit the [OpenVPN Connection Guide for Windows](http://localhost:3000/docs/openvpn/connecting/openvpn-connecting#connecting-via-windows) and ensure you are running as an administrator.
+  1. Revisit the [OpenVPN Connection Guide for Windows](https://docs.tryhackme.com/docs/openvpn/connecting/openvpn-connecting#connecting-via-windows) and ensure you are running as an administrator.
+
+If you see messages relating to TLS errors, go to **[this]**(https://openvpn.net/faq/tls-error-tls-key-negotiation-failed-to-occur-within-60-seconds-check-your-network-connectivity/) page.
 
 ## Not receiving reverse shells or Metasploit exploits not creating sessions
 This is normally either incorrect exploit settings (check this first!) or people using a kali VM but running the VPN connection on their host machine.
