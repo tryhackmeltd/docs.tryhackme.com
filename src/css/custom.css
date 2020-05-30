@@ -43,6 +43,10 @@ body {
   text-decoration: none;
 }
 
+.navbar__items:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
 .markdown > ol > li > a {
   color: #88cc14;
   font-weight: bold;
