@@ -4,7 +4,7 @@ title: API Endpoints
 sidebar_label: API Endpoints
 ---
 ## Authentication/Registering Users
-When you want a  user wants to launch into a TryHackMe room, you will send a POST request to the URL below. The apiKey parameter is the API key required to authenticate the request. The userId parameter is a unique string used to represent your user and the roomCode is the code of the room that the user is trying to access. A successful request will return a 200 status code with a URL:
+When you want a user to launch into a TryHackMe room, you will send a POST request to the URL below. The apiKey parameter is the API key required to authenticate the request. The userId parameter is a unique string used to represent your user and the roomCode is the code of the room that the user is trying to access. A successful request will return a 200 status code with a URL:
 * If the user has not authenticated to TryHackMe through this API endpoint, the URL will point to a unique sign up page that redirects a user to a room after successful registration
 * If that user has authenticated to TryHackMe through this API endpoint, the URL will automatically enter a user into a room
 ```
