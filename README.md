@@ -6,25 +6,42 @@ TryHackMe Documentation
 <p align="center">Officially maintained documentation for all TryHackMe products, services & resources.</p>  
   
 <p align="center">  
-  <a href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com">
+ <span>
+ <a href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com">
   <img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/tryhackmeltd/docs.tryhackme.com/master?style=flat-square" />
   </a>
+  </span>
+  
+  <span>
   <a href="https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master">
   <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/tryhackmeltd/docs.tryhackme.com/master?style=flat-square" />
   </a>
+  </span>
+  
+  <span>
   <a href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com">
  <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/tryhackmeltd/docs.tryhackme.com?style=flat-square" />
   </a>
+  </span>
+  
+  <span>
   <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
     <img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square' />
   <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </a>
+  </span>
+  
+  <span>
   <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues">  
     <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com?style=flat-square" /> 
   </a>
+  </span>
+  
+  <span>
    <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE">  
     <img alt="License: MIT" src="https://img.shields.io/github/license/tryhackmeltd/docs.tryhackme.com?style=flat-square" />
   </a>
+  </span>
 </p>  
  
 <p align="center">  
