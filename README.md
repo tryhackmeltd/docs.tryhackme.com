@@ -17,11 +17,6 @@ TryHackMe Documentation
   </span>
   
   <span>
-  <a href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com">
- <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/tryhackmeltd/docs.tryhackme.com?style=flat-square" /></a>
-  </span>
-  
-  <span>
   <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
     <img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square' /></a><!-- ALL-CONTRIBUTORS-BADGE:END -->
   </span>
