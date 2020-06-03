@@ -6,31 +6,36 @@ TryHackMe Documentation
 <p align="center">Officially maintained documentation for all TryHackMe products, services & resources.</p>  
   
 <p align="center">  
-  <a aria-label="Build Status" href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com" target="_blank">  
-    <img alt="Build Status" src="https://travis-ci.com/tryhackmeltd/docs.tryhackme.com.svg?branch=master" target="_blank" /> 
-</a>  
-  <a href='https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master'><img src='https://coveralls.io/repos/github/tryhackmeltd/docs.tryhackme.com/badge.svg?branch=master' alt='Coverage Status' /></a>
-  <a href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com"><img src="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com/badge.svg" alt="Known Vulnerabilities"/></a>
-  <a aria-lable="All Contributors" href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square' />
-<!-- ALL-CONTRIBUTORS-BADGE:END --></a>
-  <a aria-label="Open Issues" href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues" target="_blank">  
-    <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com" target="_blank" /> 
-</a>  
-  <a aria-label="TryHackMe documentation source is free to use" href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE" target="_blank">  
-    <img alt="License: MIT" src="https://img.shields.io/github/license/tryhackmeltd/docs.tryhackme.com" target="_blank" />  
-</a>  
+  <a href="https://travis-ci.com/github/tryhackmeltd/docs.tryhackme.com">
+  <img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/tryhackmeltd/docs.tryhackme.com/master?style=flat-square" />
+  </a>
+  <a href="https://coveralls.io/github/tryhackmeltd/docs.tryhackme.com?branch=master">
+  <img alt="Coveralls github branch" src="https://img.shields.io/coveralls/github/tryhackmeltd/docs.tryhackme.com/master?style=flat-square" />
+  </a>
+  <a href="https://snyk.io/test/github/tryhackmeltd/docs.tryhackme.com">
+ <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/tryhackmeltd/docs.tryhackme.com?style=flat-square" />
+  </a>
+  <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    <img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square' />
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
+  </a>
+  <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues">  
+    <img alt="Build Status" src="https://img.shields.io/github/issues/tryhackmeltd/docs.tryhackme.com?style=flat-square" /> 
+  </a>
+   <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/blob/master/LICENSE">  
+    <img alt="License: MIT" src="https://img.shields.io/github/license/tryhackmeltd/docs.tryhackme.com?style=flat-square" />
+  </a>
 </p>  
  
 <p align="center">  
-  <a aria-label="TryHackMe documentation" href="https://docs.tryhackme.com" target="_blank">📚 Read the documentation</a>  
+  <a href="https://docs.tryhackme.com" target="_blank">📚 Read the documentation</a>  
   |  
-  <a aria-label="contribute to the docs" href="#-contributing"><b>Contributing to the documentation</b></a>  
+  <a href="#-contributing"><b>Contributing to the documentation</b></a>  
 </p>  
   
 <p>  
-  <a aria-label="Follow @RealTryHackMe on Twitter" href="https://twitter.com/intent/follow?screen_name=realtryhackme" target="_blank">  
-    <img  alt="Twitter: TryHackMe" src="https://img.shields.io/twitter/follow/realtryhackme.svg?style=flat-square&label=Follow%20%40RealTryHackMe&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />  
+  <a aria-label="Follow @RealTryHackMe on Twitter" href="https://twitter.com/intent/follow?screen_name=realtryhackme">  
+    <img  alt="Twitter: TryHackMe" src="https://img.shields.io/twitter/follow/realtryhackme.svg?style=flat-square&label=Follow%20%40RealTryHackMe&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" />  
   </a>  
   <a aria-label="TryHackMe Blog" href="https://blog.tryhackme.com">  
     <img align="right" alt="TryHackMe: Blog" src="https://img.shields.io/badge/Learn%20more%20on%20our%20blog-lightgray.svg?style=flat-square" target="_blank" />  
@@ -242,8 +247,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-  
-> Note: To add a new contributor to this table, including yourself, comment on the following open issue: https://github.com/tryhackmeltd/docs.tryhackme.com/issues/3
   
 ## License  
   
