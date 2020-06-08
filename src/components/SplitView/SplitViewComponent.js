@@ -1,12 +1,12 @@
 import React from 'react'
 import HeroTabComponent from '../HeroTab/HeroTabComponent'
-import classnames from 'classnames'
+import classNames from 'classnames'
 import styles from './SplitView.module.css'
 import PropTypes from 'prop-types'
 
 const SplitViewComponent = ({ items }) => {
   return (
-    <div className={classnames(styles.splitViewContainer)}>
+    <div className={classNames(styles.splitViewContainer)}>
       {items && items.length && items.map((props, idx) => (
         <HeroTabComponent key={idx} {...props} />
       ))}

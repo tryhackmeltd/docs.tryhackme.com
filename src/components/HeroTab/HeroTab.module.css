@@ -24,3 +24,14 @@
 .iconArrow {
     margin-left: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .heroTabContainer {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .heroTabContainer:hover {
+        font-size: 17px;
+    }
+}

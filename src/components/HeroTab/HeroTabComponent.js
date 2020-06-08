@@ -15,7 +15,7 @@ const HeroTabComponent = ({ text, image, url }) => {
       className={classNames(styles.heroTabContainer)}
       style={{ backgroundImage: `url(${image})` }}
       onClick={handleClick}>
-      {text}
+      <span>{text}</span>
       <TiArrowForwardOutline size={40} className={classNames(styles.iconArrow)} />
     </div>
   )
