@@ -27,8 +27,7 @@ module.exports = {
           type: 'category',
           label: 'Connecting',
           items: [
-            'openvpn/connecting/openvpn-installing',
-            'openvpn/connecting/openvpn-connecting',
+            'openvpn/connecting/openvpn-connecting'
           ]
         },
         {
@@ -63,6 +62,7 @@ module.exports = {
       label: 'Sales and Billing',
       items: [
         'sales-billing/sales-billing-student',
+        `sales-billing/sales-billing-corporate`
       ]
     },
     {

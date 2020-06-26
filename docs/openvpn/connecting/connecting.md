@@ -4,48 +4,64 @@ title: Connecting With OpenVPN
 sidebar_label: Connecting With OpenVPN
 ---
 
-Firstly, you will need to download the configuration file associated with your account. This is done by visiting the **[TryHackMe "Access" page](https://tryhackme.com/access)**
+## How do I get Started?
+We have a [**room dedicated to helping**](https://tryhackme.com/room/openvpn) you install the lightweight software that is needed to connect you to our network. The room visualises the install process for the operating system of your choice!
 
-![Downloading your OpenVPN Config file](https://i.imgur.com/CiEtbrn.png)
+However, if you're familiar with OpenVPN, we recommend [**visiting this page**](https://tryhackme.com/connect) which outlines the same process in a concise manner.
 
-Just below, there is a section that has the brief steps, as well as recorded videos showing you the process on both platforms.
+![Getting Connected](https://i.imgur.com/6KS0GoD.png)
 
-![OpenVPN Access Videos](https://i.imgur.com/nt7Uaka.png)
-
-## Connecting via Linux
-After OpenVPN is installed and you have retrieved your configuration file, run the command `sudo openvpn --config /directory/to/config.ovpn`. **Please note the importance of using `sudo`**, otherwise you will not be using OpenVPN with administrative privileges and will not be able to connect.
-
-**Make sure you do not close this terminal** - but rather minimise it. Otherwise you will be disconnected from the TryHackMe network.**
-
-## Connecting via Windows
-Fortunately, the process is a lot more interactive on Windows. Whilst the videos illustrate the process, I will further highlight the process.
-
-First, you should launch OpenVPN as an administrator such as below:
-![Launching OpenVPN](https://i.imgur.com/IHUBuJ2.png)
-
-In the bottom-right corner of your taskbar, you will see a monitor with a padlock symbol. This is the OpenVPN interface, which you will need to **right-click** on to proceed.
-
-To connect, you will need to import your configuration file using **"Import file"** and navigating to the directory of where you have downloaded your OpenVPN configuration file from the **[TryHackMe "Access" page](https://tryhackme.com/access)** to.
-![Importing OpenVPN Config](https://i.imgur.com/W6XodWN.png)
+## I'm a subscriber, how do I use the in-browser Kali Machine?
+Subscribers have access to a [**Kali machine**](https://tryhackme.com/my-machine) hosted in the cloud for your convenience. Bring hacking to your browser, wherever you are, no setup required!
 
 
-Your configuration file will now appear in the OpenVPN interface, with a little arrow indicating a sub-menu, as shown below:
-![Running OpenVPN Config](https://i.imgur.com/m1oKDpa.png)
+## The "Access" Page:
+![The Access Page](https://i.imgur.com/CYWJmzj.png)
+The access page is the reference point for anything VPN related.  Hopefully you will only have to visit this once to download your TryHackMe configuration file for OpenVPN! However, it is the first port of call in troubleshooting and resolving connectivity issues.
 
-Pressing **"Connect"** will launch a GUI with a bunch of text. After a couple of seconds, a Windows-notification will appear on the bottom-right, stating that your connection was successful.
-![Windows Notification Indicating Successful Connection](https://i.imgur.com/qgoQ0A6.png)
+### Choosing VPN Server:
+TryHackMe has multiple VPN servers placed throughout various geographic regions to help keep your ping low and connection stable. At the time of writing, TryHackMe has the following:
 
-## Verifying Connectivity
+| Server Name  | Region  |
+|---|---|
+| EU-Regular-1  | Europe  |
+| EU-Regular-2  | Europe  |
+| EU-VIP-1  | Europe  |
+| US-West-Regular-1  | United States - West Coast  |
+| US-East-Regular-1  | United States - East Coast  |
+| AU-Regular-1  | Australia  |
 
-After approximately 10 seconds after successful connection, you can confirm your connection by returning to the now-populated **[TryHackMe "Access" page](https://tryhackme.com/access)**
-![](https://i.imgur.com/Anj2hX8.png)
+At times there may be lots of concurrent users on the site which is why some regions such as EU have two regular servers for load balancing.
 
-**The Connected Indicator on the access page is known to be unreliable - Please do not use this to diagnose your OpenVPN issues.** A successful connection with any client will show the following message:
+## Verifying Connectivity:
+
+Upon successful connection, OpenVPN will produce a message such as the one below:
 ```
 DAY MONTH DATE HH:MM:SS YYYY Initialization Sequence Completed
 ```
 
-## The "OpenVPN" Room
-Is a great walkthrough (and nice way to obtain some of your first points) into how to deploy an instance on the TryHackMe network, connect to it and retrieve a flag.
+If you have any doubts as to whether or not you are connected, deploy <a href="https://tryhackme.com/room/openvpn">**[Task 6] Check you're connected**</a> in the OpenVPN room. After a few minutes, you will be able to visit the IP address of the instance assigned to you in your browser.
 
-**[You can access it here](https://tryhackme.com/room/openvpn)**
+![Deploy OpenVPN room](https://i.imgur.com/QI2JRXh.png)
+
+The IP address that you need to visit will be different to that within the screenshot above.
+
+You should see the following in the browser of the device that you are connecting from. If so, you are connected! If not, refer to <a href="https://docs.tryhackme.com/docs/openvpn/troubleshooting/openvpn-troubleshooting">**the troubleshooting page**</a> for additional guidance.
+
+![Confirming Connectivity](https://i.imgur.com/Zd2f7jK.png)
+
+### OpenVPN errors & Troubleshooting:
+Configuration files have been known the generate with formatting issues. OpenVPN will fail with an error similar to the following if yours is faulty:
+```
+Mon Jun 15 22:28:35 2020 Cannot load inline certificate file
+Mon Jun 15 22:28:35 2020 Exiting due to fatal error
+```
+To fix this, switch VPN servers and press "Regenerate". For example, if you were on **EU-Regular-1** then you should swap to **EU-Regular-2** and press "Regenerate" like below:
+
+
+![Regenerating OpenVPN onfiguration File](https://i.imgur.com/uQ8L7jX.png)
+
+Please wait at least 10 seconds before pressing "Download My Configuration File". This will allow enough time for a new configuration file to be generated for you. After downloading, I suggest renaming and appending a `2` to the end to ensure you connect with this file in the future.
+![Renaming new Configuration File](https://i.imgur.com/ENFOZLh.png)
+
+If you have issues that do not relate to your config file, check out the [**troubleshooting page**](https://docs.tryhackme.com/docs/openvpn/troubleshooting/openvpn-troubleshooting) for more guidance.

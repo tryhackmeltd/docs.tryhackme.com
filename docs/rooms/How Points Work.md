@@ -6,16 +6,36 @@ sidebar_label: How Points Work
 
 Completing rooms gets you a certain number of points. A breakdown of how questions are scored as follows:
 
-![How Points Work Table](https://i.imgur.com/f5ba1Er.png)
+| Answered  | Score  |
+|---|---|
+| 1st to answer  | 80 points  |
+|  After first | 30  |
 
-If the room type is a walkthrough room, you only get 25% of those points added to your account score. Challenge rooms receive 100% if the room has been released during this month.
+The difficulty of the room will increase or decrease the number of points rewarded respectively. However, "challenge" rooms award more points than "walkthrough" rooms. Users who complete rooms first will always be given "first blood points".
 
-All points you get are added to your ‘All-time’ score, however not all points are added to your ‘Monthly’ score (which is reset to 0 on the last day of the month 23:59 GMT). You only get 100% of a room's monthly points if a room has been released during that month; you get 25% of challenge room points if its not releaed in this month. This stops new users being able obtain large amounts of points as they have more rooms to solve than older users - by monthly points only being awarded if a room is released this month, everyone has a fair chance to be number 1 on the ‘Monthly’ leaderboard and everyone has an equal chance to be number 1 on the ‘All-time’ leaderboard.
-Every question answered gets you an additional "wiggle" score, where there is between 0 and 20 random extra points added. The wiggle is not awarded to the three users to answer the question, this helps keep first blood points worth it.
+
+### Walkthrough Rooms:
+Completing "walkthrough" rooms within the same month that they are released will still award you 25% of the available points to your account, but the points will be counted in both the "Monthly" and "All-time" leaderboards. However, completing "walkthrough" rooms that are *not** released within the same month will still award you 25% of the available points, however, the points from this will only go towards your account and the "All-time" leaderboard - not towards the monthly leaderboard as well.
+
+
+### Challenge Rooms:
+Completing "challenge" rooms within the same month they are released will award 100% of the points available to your account and both the "Monthly" and "All-time" leaderboards. Where completing "challenge" rooms that are not released in the same month will still grant you 100% of the available points as before, only 25% - not 100% -  of the available points will be included for your score on the "Monthly" leaderboard.
+
+### Leaderboards
+
+#### Monthly
+The [**monthly leaderboards**](https://tryhackme.com/leaderboards) are calculated from the points that are given above. Monthly points reset to 0 on the last day of the month at **23:59 GMT**. The #1 ranking at that time will receive a badge on their THM profile and a random security gift.
+
+#### All-time
+[**Here**](https://tryhackme.com/leaderboards) is where you fight for your place on the wall of fame. You are ranked in relation to the value of your account points against every other TryHackMe use. Your prize is being #1.
+
 
 **Summary**
-* Challenge rooms released this month, give you 100% of the points (to both your all-time and monthly score).
-* Old challenge rooms (not released this month) will give you 25% of the points to your monthly score and 100% to your all-time score.
-* Walkthrough rooms released this month, give you 25% of the points to both your all-time and monthly score.
-* Old Walkthrough rooms (not released this month) only give you 25% of the points to your all-time score, none for your monthly score.
-* Extra wiggle points awarded after third person to answer the question.
+
+- Only the points from "public" rooms will increase your rank and level.
+- First to first blood (complete) a box will gain more points then the rest of the users.
+- Challenge rooms released this month, give you 100% of the points (to both your all-time and monthly score).
+- Old challenge rooms (not released this month) will give you 25% of the points to your monthly score and 100% to your all-time score.
+- Walkthrough rooms released this month, give you 25% of the points to both your all-time and monthly score.
+- Old Walkthrough rooms (not released this month) only give you 25% of the points to your all-time score, none for your monthly score.
+- The "Monthly" leaderboard resets to 0 on the last day of the month at 23:59. #1 will recieve a badge on their profile and a random security gift.

@@ -4,6 +4,8 @@ title: Why should I join?
 sidebar_label: Why should I join?
 ---
 
-We want to make the entire process of both teaching and learning cyber security a lot easier. As a student, you can join rooms on different areas of security, learn practical skills about these areas, and building an amazing skillset.
+With 217 public rooms at the time of writing, we are confident that you will find topics that are both engaging and informative on TryHackMe. Our virtual labs consist of either challenge or walkthrough-styled content that will be interacting with through your own, private, machine on our infrastructure. No noisy neighbours, no terminal parrots! If you are a visual learner, we have videos covering fundamental tools and techniques of Cybersecurity to help get you started amongst community-written articles and blogs.
 
-We know that it can be a pain to set up teaching material and keep track of users' progress. Creating rooms makes it easier for anyone (both casually and professionally) to teach cyber security classes. With a click of a button, you can make your own material available to students, and easily check up on how well they are doing with the class. TryHackMe is perfect for setting up CTFs, Workshops, Assignments or Assessments with our user tracking functionality.
+Complete objective-based tasks to increase your site level and position on the leaderboards!
+
+Got the competitive streak? Our latest game mode King of the Hill (KoTH) allows you to compete against other hackers on the same machine. Gain entry, patch your way in and become king!
