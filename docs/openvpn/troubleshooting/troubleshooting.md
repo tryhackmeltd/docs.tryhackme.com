@@ -11,7 +11,7 @@ sidebar_label: OpenVPN Troubleshooting
 ## Other Considerations:
 As it stands, TryHackMe only supports OpenVPN via UDP. If you are in a country such as Egypt or China where a VPN over UDP is blocked, until TCP is supported, the alternative is to [**deploy your own Kali instance**](hhtps://tryhackme.com/my-machine) in the cloud. This instance is hosted on TryHackMe and is publicly accessible without a VPN connection. 
 
-If you see messages relating to TLS errors, go to [**this OpenVPN article**](https://openvpn.net/faq/tls-error-tls-key-negotiation-failed-to-occur-within-60-seconds-check-your-network-connectivity/) page.
+If you see messages relating to TLS errors, go to [**this OpenVPN article**](https://openvpn.net/faq/tls-error-tls-key-negotiation-failed-to-occur-within-60-seconds-check-your-network-connectivity/).
 
 ## Not receiving reverse shells or Metasploit not creating Sessions?
 This is most commonly due to incorrect exploit settings within Metasploit / exploit code. This should be the first thing to check. Ensure that you are using your THM IP address as your `lhost` option and the IP address of the instance assigned to you as your `rhosts`.

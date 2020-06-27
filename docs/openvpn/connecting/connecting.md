@@ -17,7 +17,7 @@ Subscribers have access to a [**Kali machine**](https://tryhackme.com/my-machine
 
 ## The "Access" Page:
 ![The Access Page](https://i.imgur.com/CYWJmzj.png)
-The access page is the reference point for anything VPN related.  Hopefully you will only have to visit this once to download your TryHackMe configuration file for OpenVPN! However, it is the first port of call in troubleshooting and resolving connectivity issues.
+The access page is the reference point for anything TryHackMe VPN related.  Hopefully you will only have to visit this once to download your TryHackMe configuration file for OpenVPN! However, it is one of the first port of calls in managing your TryHackMe VPN and troubleshooting.
 
 ### Choosing VPN Server:
 TryHackMe has multiple VPN servers placed throughout various geographic regions to help keep your ping low and connection stable. At the time of writing, TryHackMe has the following:
@@ -40,7 +40,7 @@ Upon successful connection, OpenVPN will produce a message such as the one below
 DAY MONTH DATE HH:MM:SS YYYY Initialization Sequence Completed
 ```
 
-If you have any doubts as to whether or not you are connected, deploy <a href="https://tryhackme.com/room/openvpn">**[Task 6] Check you're connected**</a> in the OpenVPN room. After a few minutes, you will be able to visit the IP address of the instance assigned to you in your browser.
+If you have any doubts as to whether or not you are connected, deploy the instance attached to  <a href="https://tryhackme.com/room/openvpn">**[Task 6] Check you're connected**</a> in the OpenVPN room. After a few minutes, you will be able to visit the IP address of the instance assigned to you in your browser.
 
 ![Deploy OpenVPN room](https://i.imgur.com/QI2JRXh.png)
 
@@ -51,7 +51,7 @@ You should see the following in the browser of the device that you are connectin
 ![Confirming Connectivity](https://i.imgur.com/Zd2f7jK.png)
 
 ### OpenVPN errors & Troubleshooting:
-Configuration files have been known the generate with formatting issues. OpenVPN will fail with an error similar to the following if yours is faulty:
+Configuration files have been known the generate with formatting issues. OpenVPN will fail with an error similar to the following if yours has been generated with errors:
 ```
 Mon Jun 15 22:28:35 2020 Cannot load inline certificate file
 Mon Jun 15 22:28:35 2020 Exiting due to fatal error

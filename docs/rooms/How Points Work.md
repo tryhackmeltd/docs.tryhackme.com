@@ -30,7 +30,7 @@ The [**monthly leaderboards**](https://tryhackme.com/leaderboards) are calculate
 [**Here**](https://tryhackme.com/leaderboards) is where you fight for your place on the wall of fame. You are ranked in relation to the value of your account points against every other TryHackMe use. Your prize is being #1.
 
 
-**Summary**
+#### Summary
 
 - Only the points from "public" rooms will increase your rank and level.
 - First to first blood (complete) a box will gain more points then the rest of the users.
