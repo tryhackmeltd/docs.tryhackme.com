@@ -22,19 +22,19 @@ There are currently 13 levels:
 * 0xD [God]
 ```
 These are obtained at the following number of points:
-```
-* 0x1          -- 0
-* 0x2          -- 1000
-* 0x3          -- 2500
-* 0x4          -- 5000
-* 0x5          -- 7500
-* 0x6          -- 10000
-* 0x7          -- 15000
-* 0x8 [Hacker] -- 20000
-* 0x9 [Omni]   -- 40000
-* 0xA [Wizard] -- 60000
-* 0xB [Master] -- 75000
-* 0xC [Guru]   -- 85000
-* 0xD [God]    -- 100000
 
-```
+| Title / Rank  | Point Requirement  |
+|---|---|
+| 0x1  | 0 |
+| 0x2  | 200 |
+| 0x3  | 500 |
+| 0x4  | 1,000 |
+| 0x5  | 1,500 |
+| 0x6  | 2,000 |
+| 0x7  | 3,000 |
+| 0x8 [Hacker] | 4,000 |
+| 0x9 [Omni] | 8,000 |
+| 0xA [Wizard] | 12,000 |
+| 0xB [Master] | 15,000 |
+| 0xC [Guru] | 17,000 |
+| 0xD [God] | 20,000 |
