@@ -9,7 +9,7 @@ sidebar_label: OpenVPN Troubleshooting
 
 
 ## Other Considerations:
-As it stands, TryHackMe only supports OpenVPN via UDP. If you are in a country such as Egypt or China where a VPN over UDP is blocked, until TCP is supported, the alternative is to [**deploy your own Kali instance**](hhtps://tryhackme.com/my-machine) in the cloud. This instance is hosted on TryHackMe and is publicly accessible without a VPN connection. 
+As it stands, TryHackMe only supports OpenVPN via UDP. If you are in a country such as Egypt or China where a VPN over UDP is blocked, until TCP is supported, the alternative is to [**deploy your own Kali instance**](https://tryhackme.com/my-machine) in the cloud. This instance is hosted on TryHackMe and is publicly accessible without a VPN connection. 
 
 If you see messages relating to TLS errors, go to [**this OpenVPN article**](https://openvpn.net/faq/tls-error-tls-key-negotiation-failed-to-occur-within-60-seconds-check-your-network-connectivity/).
 
