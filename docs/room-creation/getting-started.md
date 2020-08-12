@@ -12,7 +12,7 @@ Material (Virtual machines or downloads) are linked to a task, rather than a roo
 
 The process to start allocating tasks to users is below:
 
-1. [Create a room](https://docs.tryhackme.com/docs/rooms/creating-a-room).
+1. [Create a room](https://tryhackme.com/create-room).
 2. [Upload material](https://tryhackme.com/upload) (VMs or other files) or use the ones we provide. If you are providing your own VM, [**ensure you follow the AWS conversion guidelines**](https://docs.aws.amazon.com/vm-import/latest/userguide/vmie_prereqs.html) or your upload will fail.
 3. [Assign tasks for a room](https://tryhackme.com/assign-tasks).
 4. Give your users your room code and have them join.
