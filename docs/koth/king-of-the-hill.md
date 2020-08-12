@@ -12,7 +12,7 @@ Traditionally you are taught **how** to compromise a machine to claim ownership 
 KoTH inspires you to not only apply the knowledge gained from the content within the platform in a competitive, timed setting; Koth also encourages the use of blue-team tactics to prevent others from using similar methods such as those that you employed to compromise the machine.
 
 ### The Lobby System
-The platform creates groups in the form of a lobby. These lobbies consist of a **maximum of 6 participating** players but can have spectators.
+The platform creates groups in the form of a lobby. These lobbies consist of a **maximum of 10 participating** players but can have spectators.
 
 This means you can 1v1 or host a lobby to compete against a handful of your friends.
 
@@ -42,16 +42,18 @@ To prevent cheating and ensure this game is realistic yet fair to everyone, all 
 3. No closing of the port: 9999
 4. No Denial of Service (DoS) attacks whatsoever to and from the machine itself nor members of the lobby or any other infrastructure.
 5. Whilst the target is launched from a pool of potential machines, we do not want any writeups or hints for this game mode. Do not spoil the nature of the competition for others...
+6. No attacking other users.
+7. Scripts that automatically hack and/or harden the machine are forbidden.
 
 Lobbies are moderated to ensure fair play where failure to abide by the rules will result in bans within the game mode and/or across the TryHackMe site.
 
 ## How to Play
 When everyone "readies" within the lobby, you will be provided the IP Address of the machine you all have to compete amongst each other to attack. From now on, you will compete to become **the first King of the Hill**.
 
-After the lobby has started - the time of which you have specified, the **game will last for 45 minutes.** The member with the most points at the end of the game - regardless of the amount of "King Changes" and the like wins!
+After the lobby has started - the time of which you have specified, the **game will last for 60 minutes or 1 Hour.** The member with the most points at the end of the game - regardless of the amount of "King Changes" and the like wins!
 
 ### Becoming King
-After enumeration and such forth, you will need to add your **TryHackMe Username** to **/root/king.txt** on the machine itself to become the latest **"King"**.
+After enumeration and such forth, you will need to add your **TryHackMe Username** to **/root/king.txt or king file in ADMINISTRATOR user's directory(Windows machine)** on the machine itself to become the latest **"King"**.
 
 It is then down to you to prevent your competitors from replacing your **TryHackMe Username** and becoming the new **"King"**, however, you **must follow the rules**.
 
