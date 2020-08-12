@@ -96,6 +96,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "umair9747",
+      "name": "Umair",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29596050?v=4",
+      "profile": "https://umair9747.github.io/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
