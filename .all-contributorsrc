@@ -96,6 +96,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ZultanH",
+      "name": "Zultan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43057246?v=4",
+      "profile": "https://github.com/ZultanH",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
