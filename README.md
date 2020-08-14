@@ -246,7 +246,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a> <a href="#security-VladBirgauanu" title="Security">🛡️</a></td>
     <td align="center"><a href="https://github.com/ashu-savani"><img src="https://avatars2.githubusercontent.com/u/15062856?v=4" width="100px;" alt=""/><br /><sub><b>ashu-savani</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=ashu-savani" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://umair9747.github.io/"><img src="https://avatars1.githubusercontent.com/u/29596050?v=4" width="100px;" alt=""/><br /><sub><b>Umair</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aumair9747" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://umair9747.github.io/"><img src="https://avatars1.githubusercontent.com/u/29596050?v=4" width="100px;" alt=""/><br /><sub><b>Umair</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aumair9747" title="Bug reports">🐛</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=umair9747" title="Documentation">📖</a></td>
   </tr>
 </table>
 
