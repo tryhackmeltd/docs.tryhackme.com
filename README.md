@@ -247,6 +247,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a> <a href="#security-VladBirgauanu" title="Security">🛡️</a></td>
     <td align="center"><a href="https://github.com/ashu-savani"><img src="https://avatars2.githubusercontent.com/u/15062856?v=4" width="100px;" alt=""/><br /><sub><b>ashu-savani</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=ashu-savani" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ZultanH"><img src="https://avatars3.githubusercontent.com/u/43057246?v=4" width="100px;" alt=""/><br /><sub><b>Zultan</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3AZultanH" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/FreezeLuiz"><img src="https://avatars1.githubusercontent.com/u/40268822?v=4" width="100px;" alt=""/><br /><sub><b>M. H.</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=FreezeLuiz" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/holmes-py"><img src="https://avatars1.githubusercontent.com/u/54495695?v=4" width="100px;" alt=""/><br /><sub><b>Hardeep Singh</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=holmes-py" title="Documentation">📖</a></td>
   </tr>
 </table>
 

@@ -105,6 +105,24 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "FreezeLuiz",
+      "name": "M. H.",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40268822?v=4",
+      "profile": "https://github.com/FreezeLuiz",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "holmes-py",
+      "name": "Hardeep Singh",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54495695?v=4",
+      "profile": "https://github.com/holmes-py",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
