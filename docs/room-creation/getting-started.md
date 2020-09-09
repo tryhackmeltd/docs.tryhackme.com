@@ -109,6 +109,9 @@ For public rooms we require a minimum of 4 tags. Some ideas for what we expect a
   - Burp Suite, Metasploit, SQLMap etc.
 - Vulnerable Protocols
   - SMB, POP3, etc.
+- Accessible, if applicable
+  - For accessible rooms ([Learn more here](https://www.w3.org/standards/webdesign/accessibility)).
+  - Ex: Internal, Shodan.io, Introductory Networking.
 
 Rooms which do not include tags will not be made public although challenges have some leniency due to spoilers. For example, we are not expecting you list CVE numbers that will spoil the challenge.
 
