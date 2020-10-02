@@ -7,7 +7,9 @@ module.exports = {
   organizationName: 'tryhackmeltd', // Usually your GitHub org/user name.
   projectName: 'docs.tryhackme.com', // Usually your repo name.
   themeConfig: {
-    disableDarkMode: true,
+    colorMode: {
+      disableSwitch: true
+    },
     algolia: {
       apiKey: 'f6bc764ab829843e80b2e0fbca995f36', // search-only API key (safe for front-end usage)
       indexName: 'tryhackme'
@@ -18,7 +20,7 @@ module.exports = {
         alt: 'TryHackMe Logo',
         src: 'img/thm-white.png'
       },
-      links: [
+      items: [
         {to: 'docs/general/welcome', label: 'Docs', position: 'left'},
         {to: 'https://blog.tryhackme.com', label: 'Blog', position: 'left'},
         {
@@ -49,7 +51,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/YTZwNdF',
+              href: 'https://discord.gg/tryhackme',
             },
             {
               label: 'Forums',

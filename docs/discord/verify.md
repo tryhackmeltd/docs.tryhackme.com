@@ -11,7 +11,7 @@ Your [**level**](https://docs.tryhackme.com/docs/general/tryhackme-levels) on Tr
 
 2. Copy your Discord token, then switch over to Discord. Make sure that you do not share it with anyone who isn't the "TryHackMe" Bot in the TryHackMeDiscord. The Bot is in **purple** and has the THM logo as shown later on with a Discord-coloured blue next to it.
 
-3. Join the TryHackMeDiscord. The steps to do so are detailed [**here**]()
+3. Join the TryHackMeDiscord. The steps to do so are detailed [**here**](https://docs.tryhackme.com/docs/discord/discord-getting-started)
 
 4. Look for the "TryHackMe Bot" on the top right of the user list.
 
@@ -22,7 +22,7 @@ Your [**level**](https://docs.tryhackme.com/docs/general/tryhackme-levels) on Tr
 
 ![Verify Token](https://i.imgur.com/3PvcJhQ.png)
 
-7. Press "Enter" and the bot will update your roles!
+7. Press "Enter", the bot will then update your roles!
 
 Your role within the Discord will now automatically update every 24 hours. However, if you'd that to be reflected quicker, you will have to perform the same process again.
 

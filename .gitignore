@@ -20,8 +20,9 @@ lsp
 .vscode
 .editor-config
 .editorconfig
+package-lock.json
 
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
