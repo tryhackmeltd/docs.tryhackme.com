@@ -8,8 +8,11 @@ Completing rooms gets you a certain number of points. A breakdown of how questio
 
 | Answered  | Score  |
 |---|---|
-| 1st to answer  | 80 points  |
-|  After first | 30  |
+| 1st to answer  | 200 points  |
+| 2nd to answer  | 180 points  |
+| 3rd to answer  | 175 points  |
+| 4th to answer  | 165 points  |
+| After 4th      | 150 points  |
 
 The difficulty of the room will increase or decrease the number of points rewarded respectively. However, "challenge" rooms award more points than "walkthrough" rooms. Users who complete rooms first will always be given "first blood points".
 
