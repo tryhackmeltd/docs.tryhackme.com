@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 ## API Use Case
 
-Users that are part of the [TryHackMe Teaching Program](tryhackme.com/teaching) get access to a set of API features that they can use to perform various functions such as:
+Users that are part of the [TryHackMe Teaching Program](https://tryhackme.com/teaching) get access to a set of API features that they can use to perform various functions such as:
 * register/authenticate users
 * retrieve users room data
 * retrieve public rooms
