@@ -1,15 +1,28 @@
 import React from 'react'
 import { shallow, mount } from 'enzyme'
-import { MemoryRouter } from '@docusaurus/router'
 import Home from '../../src/pages/index'
 import HeaderComponent from '../../src/components/Header/HeaderComponent'
 import homepageCategories from '../../homepage-categories'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 jest.mock('@docusaurus/Link', () => {
-  return ({children}) => {
+  return ({ children }) => {
     return children
   }
 })
+
+jest.mock(
+  '@docusaurus/useDocusaurusContext',
+  () => jest.fn(),
+  { virtual: true })
+
+const mockedContext = useDocusaurusContext
+mockedContext.mockImplementation(() => ({
+  siteConfig: {
+    baseUrl: '/',
+    url: `http://localhost:${process.env.PORT} || 3000}`
+  }
+}))
 
 describe('Index (Home) Page', () => {
   it('renders successfully', () => {
@@ -18,7 +31,7 @@ describe('Index (Home) Page', () => {
   })
 
   describe('renders all child components', () => {
-    const wrapper = mount(<MemoryRouter initialEntries={['/']}><Home /></MemoryRouter>)
+    const wrapper = mount(<Home />)
     const layout = wrapper.find('Layout')
     it('renders 1x Layout', () => {
       expect(layout).toHaveLength(1)

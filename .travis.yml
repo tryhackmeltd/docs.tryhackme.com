@@ -1,19 +1,19 @@
 # .travis.yml
 language: node_js
 node_js:
-  - '10'
+  - '12'
 cache:
-  npm: true
+  yarn: true
 install:
-  - npm i
+  - yarn install
 script:
   - git config --global user.name "${GH_NAME}"
   - git config --global user.email "${GH_EMAIL}"
   - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - npm t && npm run build
+  - yarn test && yarn build
 deploy:
   provider: script
-  script: jest --config=config/jest.config.js --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage && GIT_USER="${GH_NAME}" npm run deploy
+  script: jest --config=config/jest.config.js --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage && GIT_USER="${GH_NAME}" yarn deploy
   skip_cleanup: true
   on:
     branch: master

@@ -16,8 +16,8 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.43",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.43",
+    "@docusaurus/core": "^2.0.0-alpha.64",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.64",
     "algoliasearch": "^4.0.3",
     "classnames": "^2.2.6",
     "css-loader": "^3.4.2",
@@ -28,8 +28,8 @@
     "react-instantsearch-dom": "^6.3.0",
     "react-router": "latest",
     "react-spinners": "^0.9.0",
-    "style-loader": "^1.1.3",
-    "snyk": "^1.335.0"
+    "snyk": "^1.335.0",
+    "style-loader": "^1.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
