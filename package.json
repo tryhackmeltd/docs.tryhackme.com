@@ -29,7 +29,7 @@
     "react-router": "latest",
     "react-spinners": "^0.9.0",
     "snyk": "^1.335.0",
-    "style-loader": "^1.1.3"
+    "style-loader": "^1.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
