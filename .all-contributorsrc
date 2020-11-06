@@ -103,7 +103,7 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/29596050?v=4",
       "profile": "https://umair9747.github.io/",
       "contributions": [
-        "bug",
+        "bug"
       ]
     },
     {
@@ -131,6 +131,16 @@
       "profile": "https://github.com/holmes-py",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "kaanis",
+      "name": "kaanis",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/71700143?v=4",
+      "profile": "https://github.com/kaanis",
+      "contributions": [
+        "doc",
+        "bug"
       ]
     }
   ],
