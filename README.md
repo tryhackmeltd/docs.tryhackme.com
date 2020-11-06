@@ -18,7 +18,7 @@ TryHackMe Documentation
   
   <span>
   <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </span>
   
@@ -246,10 +246,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/VladBirgauanu"><img src="https://avatars1.githubusercontent.com/u/35664747?v=4" width="100px;" alt=""/><br /><sub><b>Chevalier</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=VladBirgauanu" title="Documentation">📖</a> <a href="#security-VladBirgauanu" title="Security">🛡️</a></td>
     <td align="center"><a href="https://github.com/ashu-savani"><img src="https://avatars2.githubusercontent.com/u/15062856?v=4" width="100px;" alt=""/><br /><sub><b>ashu-savani</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=ashu-savani" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://umair9747.github.io/"><img src="https://avatars1.githubusercontent.com/u/29596050?v=4" width="100px;" alt=""/><br /><sub><b>Umair</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aumair9747" title="Bug reports">🐛</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=umair9747" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://umair9747.github.io/"><img src="https://avatars1.githubusercontent.com/u/29596050?v=4" width="100px;" alt=""/><br /><sub><b>Umair</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aumair9747" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/ZultanH"><img src="https://avatars3.githubusercontent.com/u/43057246?v=4" width="100px;" alt=""/><br /><sub><b>Zultan</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3AZultanH" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/FreezeLuiz"><img src="https://avatars1.githubusercontent.com/u/40268822?v=4" width="100px;" alt=""/><br /><sub><b>M. H.</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=FreezeLuiz" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/holmes-py"><img src="https://avatars1.githubusercontent.com/u/54495695?v=4" width="100px;" alt=""/><br /><sub><b>Hardeep Singh</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=holmes-py" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/kaanis"><img src="https://avatars0.githubusercontent.com/u/71700143?v=4" width="100px;" alt=""/><br /><sub><b>kaanis</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=kaanis" title="Documentation">📖</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Akaanis" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
