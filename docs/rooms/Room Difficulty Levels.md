@@ -10,6 +10,6 @@ Green: Complete beginner to easy rooms;
 Yellow: Early intermediate to intermediate roomes;
 Red: Advanced and insane rooms.
 
-Moreover, is important to note that you will find mostly to tipes of rooms: Walkthrough and CTF/challenging room. The first ones will guide you through an argument with explainations, examples and clarifications. The second ones are they are meant for you to test yourself and are designed with a hands-on approach.
+Moreover, is important to note that you will find mostly two tipes of rooms: Walkthrough and CTF/challenging room. The first ones will guide you through an argument with explainations, examples and clarifications. The second ones are meant for you to test yourself and are designed with a hands-on approach.
 
 
