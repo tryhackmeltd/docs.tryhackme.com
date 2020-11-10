@@ -151,6 +151,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "bee-san",
+      "name": "Bee",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10378052?v=4",
+      "profile": "https://skerritt.blog",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
