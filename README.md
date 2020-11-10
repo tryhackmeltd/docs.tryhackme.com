@@ -254,6 +254,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://ag3n7.github.io"><img src="https://avatars2.githubusercontent.com/u/43341431?v=4" width="100px;" alt=""/><br /><sub><b>ABHIJITH P K</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aag3n7" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/bee-san"><img src="https://avatars0.githubusercontent.com/u/10378052?v=4" width="100px;" alt=""/><br /><sub><b>Bee</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=bee-san" title="Documentation">📖</a></td>
   </tr>
 </table>
 
