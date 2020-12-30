@@ -7,7 +7,7 @@ sidebar_label: Connecting With OpenVPN
 ## How do I get Started?
 We have a [**room dedicated to helping**](https://tryhackme.com/room/openvpn) you install the lightweight software that is needed to connect you to our network. The room visualises the install process for the operating system of your choice!
 
-However, if you're familiar with OpenVPN, we recommend [**visiting this page**](https://tryhackme.com/connect) which outlines the same process in a concise manner.
+However, if you're familiar with OpenVPN, we recommend visiting a room and clicking the "Get Connected" button on the top navigation bar, which outlines the same process in a concise manner.
 
 ![Getting Connected](https://i.imgur.com/6KS0GoD.png)
 
