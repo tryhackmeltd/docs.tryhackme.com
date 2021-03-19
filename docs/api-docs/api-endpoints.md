@@ -35,7 +35,7 @@ The expected successful response is
 ## Retrieve User Progress
 This endpoint returns users progress in the specified room. The {ROOM-CODE} parameter is the room code you would like to receive data from.
 ```
-GET https://tryhackme.com/external/api/getgraphdata/{ROOM-CODE}
+GET https://tryhackme.com/external/api/scoreboard/{ROOM-CODE}
 ```
 
 The API key needs to be provided inside the THM-API-KEY header as follows
