@@ -13,7 +13,7 @@
     "deploy": "docusaurus deploy",
     "test": "jest --config=config/jest.config.js --coverage",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.64",
