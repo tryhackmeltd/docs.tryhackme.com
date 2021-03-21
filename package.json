@@ -11,9 +11,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "test": "jest --config=config/jest.config.js --coverage",
-    "snyk-protect": "snyk protect",
-    "prepublish": "yarn run snyk-protect"
+    "test": "jest --config=config/jest.config.js --coverage"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.64",
