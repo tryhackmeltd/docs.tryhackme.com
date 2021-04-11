@@ -14,9 +14,9 @@ POST https://tryhackme.com/external/api/authenticate
 The request body parameters are
 ```
 {
-	apiKey: String,
-	userId: String,
-    roomCode: String
+   "apiKey": String,
+   "userId": String,
+   "roomCode": String
 }
 ```
 
@@ -28,7 +28,7 @@ Content-Type: application/x-www-form-urlencoded
 The expected successful response is
 ```
 {
-     url: String
+   "url": String
 }
 ```
 
@@ -47,7 +47,7 @@ The expected successful response is
 ```
 [
   {
-    "name": "String",
+    "name": String,
     "data": [
       "",
       0
@@ -58,7 +58,7 @@ The expected successful response is
         "questionNo": Integer,
         "correct": Boolean,
         "score": Integer,
-        "timeCorrect": "ISO8601 UTC Timestamp"
+        "timeCorrect": ISO8601 UTC Timestamp
       },
     ],
     "totalScore": Integer,
@@ -85,14 +85,14 @@ THM-API-KEY: {API-KEY}
 The expected successful response is as follows
 ```
 {
-    "status": true,
-    "users": [
-        {
-            "username": String,
-            "email": String,
-            "dateSignedUp": ISO8601 UTC Datetime
-        }
-    ]
+   "status": true,
+   "users": [
+      {
+         "username": String,
+         "email": String,
+         "dateSignedUp": ISO8601 UTC Datetime
+      }
+   ]
 }
 ```
 
@@ -105,9 +105,9 @@ POST https://tryhackme.com/external/api/leaveRoom
 The request body parameters are
 ```
 {
-	apiKey: String,
-	userId: String,
-    roomCode: String
+   "apiKey": String,
+   "userId": String,
+   "roomCode": String
 }
 ```
 
@@ -135,13 +135,13 @@ THM-API-KEY: {API-KEY}
 The expected successful response is as follows
 ```
 [
-    {
-        "code": String,
-        "title": String,
-        "description": String
-        'public': Boolean
-        'users': [String]
-    },
+   {
+      "code": String,
+      "title": String,
+      "description": String,
+      "public": Boolean,
+      "users": [String]
+   }
 ]
 ```
 
@@ -159,7 +159,7 @@ THM-API-KEY: {API-KEY}
 The expected successful response is as follows
 ```
 {
-    "roomExists": Boolean
+   "roomExists": Boolean
 }
 ```
 
@@ -177,19 +177,20 @@ THM-API-KEY: {API-KEY}
 The expected successful response is as follows
 ```
 {
-    "questions": [
-        {
-            "taskNo": Integer,
-            "infoList": [
-                {
-                    "questionNo": Integer,
-                    "question": String,
-                    "answer": String,
-                    "hint": String,
-                    "extraPoints": Integer
-                }
-            ]
-        }
+   "questions": [
+      {
+         "taskNo": Integer,
+         "infoList":[
+            {
+               "questionNo": Integer,
+               "question": String,
+               "answer": String,
+               "hint": String,
+               "extraPoints": Integer
+            }
+         ]
+      }
+   ]
 }
 ```
 
@@ -199,6 +200,6 @@ A successful request to any of these endpoints will always return a 200 OK respo
 A request to an endpoint that does not return a 200 OK response will contain a message parameter attached to the response as follows
 ```
 {
-	message: "API Key is invalid or has expired."
+   "message": "API Key is invalid or has expired."
 }
 ```
