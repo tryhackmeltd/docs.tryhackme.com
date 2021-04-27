@@ -21,6 +21,20 @@ Another possibility is people connecting via the OpenVPN on their host machine a
 ## Intermittent connection (random drop-outs):
 This issue usually stems from client-side issues that can be checked using the [**troubleshooting script**](https://github.com/tryhackme/openvpn-troubleshooting). However, look for external factors to OpenVPN as to why you are experiencing issues if this script does not help.
 
+## External access not working:
+When importing the OpenVPN configuration file into the Kali Linux GUI, kali will route all internet traffic through the VPN by default. In this case you won't be able to contact external sites (e.g. 'apt update' doesn't work), but you can connect to resources on the THM network. Run the following to address the problem:
+
+```sh
+  $ nmcli connection   # Note the name of the VPN connection here
+  $ nmcli connection edit (connection_name)
+  > set ipv4.never-default true
+  > set ipv6.never-default true
+  > save
+  > quit
+```
+
+[Credit: Caleb Stewart](https://blog.djsdev.com/2020/03/add-htb-vpn-to-kali-20201-and-fix-vpn.html)
+
 ### Checking for external Issues:
 
 1. In this setup, OpenVPN does not route all of your internet traffic through TryHackMe - are you able to connect to external websites like google? If not, this is an issue with your internet service
@@ -28,3 +42,4 @@ This issue usually stems from client-side issues that can be checked using the [
 3. Are you in a country that blocks OpenVPN traffic? (China, Egypt)
 
 Finally, if you are confident that your internet connection is stable, try switching VPN servers via the [**access page**](https://tryhackme.com/access).
+
