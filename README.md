@@ -18,7 +18,7 @@ TryHackMe Documentation
   
   <span>
   <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </span>
   
@@ -256,6 +256,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://ag3n7.github.io"><img src="https://avatars2.githubusercontent.com/u/43341431?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ABHIJITH P K</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aag3n7" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://skerritt.blog"><img src="https://avatars0.githubusercontent.com/u/10378052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bee</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=bee-san" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ariyonaty"><img src="https://avatars.githubusercontent.com/u/18715356?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ari Yonaty</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aariyonaty" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/tkolstee"><img src="https://avatars.githubusercontent.com/u/875588?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tony Kolstee</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=tkolstee" title="Documentation">📖</a></td>
   </tr>
 </table>
 
