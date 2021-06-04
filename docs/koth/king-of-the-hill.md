@@ -9,7 +9,7 @@ King of the Hill (KoTH) is a competitive hacking game, where you play against up
 
 Traditionally you are taught **how** to compromise a machine to claim ownership of it. TryHackMe provides plenty of content on how to do so. However, an often overlooked aspect of hacking is maintaining access.
 
-KoTH inspires you to not only apply the knowledge gained from the content within the platform in a competitive, timed setting; Koth also encourages the use of blue-team tactics to prevent others from using similar methods such as those that you employed to compromise the machine.
+KoTH not only inspires you to apply the knowledge gained from the content within the platform in a competitive, timed set way, but also encourages the use of blue-team tactics to prevent others from using similar methods, such as those that you employed to compromise the machine.
 
 ### The Lobby System
 The platform creates groups in the form of a lobby. These lobbies consist of a **maximum of 10 participating** players but can have spectators.
@@ -19,7 +19,7 @@ This means you can 1v1 or host a lobby to compete against a handful of your frie
 ![lobby-system](https://i.imgur.com/q0TUfND.png)
 
 #### Creating Your Lobby
-When creating a lobby, you will be given the option to specify whether or not the lobby will be private or public, as well as how soon the lobby will start (i.e. In an hour from now to allow time for public lobbies to become full) or for example 15 minutes if you are creating a private lobby where you have already arranged with the members.
+When creating a lobby, you will be given the option to specify whether or not the lobby will be private or public, as well as how soon the lobby will start (i.e. in an hour from now to allow time for public lobbies to become full) or for example 15 minutes, if you are creating a private lobby which you have already arranged with the members.
 
 ![create-lobby-private](https://i.imgur.com/3wBo1Pm.png)
 
@@ -32,7 +32,7 @@ Don't have anyone at hand to play against? Fret not. TryHackMe creates public lo
 
 ![lobby-system](https://i.imgur.com/q0TUfND.png)
 
-If there is a public lobby that is looking for players, you can simply join and become apart of the lobby yourself.
+If there is a public lobby that is looking for players, you can simply join and become a part of the lobby yourself.
 
 ## The Rules of the Game Mode:
 To prevent cheating and ensure this game is realistic yet fair to everyone, all players must adhere to the following rules:
