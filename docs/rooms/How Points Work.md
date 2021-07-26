@@ -30,7 +30,7 @@ Completing "challenge" rooms within the same month they are released will award 
 The [**monthly leaderboards**](https://tryhackme.com/leaderboards) are calculated from the points that are given above. Monthly points reset to 0 on the last day of the month at **23:59 GMT**. The #1 ranking at that time will receive a badge on their THM profile and a random security gift.
 
 #### All-time
-[**Here**](https://tryhackme.com/leaderboards) is where you fight for your place on the wall of fame. You are ranked in relation to the value of your account points against every other TryHackMe use. Your prize is being #1.
+[**Here**](https://tryhackme.com/leaderboards) is where you fight for your place on the wall of fame. You are ranked in relation to the value of your account points against every other TryHackMe user. Your prize is being #1.
 
 
 #### Summary
