@@ -187,6 +187,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SwetabhOfficial",
+      "name": "Swetabh Suman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19845881?v=4",
+      "profile": "https://www.studygrasp.com",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
