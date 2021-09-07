@@ -70,21 +70,21 @@ TryHackMe Documentation
   
 If you like the TryHackMe documentation and want to help make it better then check out our guidelines below! If you are simply interested in adding a new article, amending an existing article, or fixing any grammatical/formatting errors, then you can follow the instructions below.  
   
-> Note: in order to contribute to the project you must have **Node.js** & **NPM** installed. The Node.js binaries come with NPM bundled together, which can be downloaded at [https://nodejs.org/download](https://nodejs.org/download).  
+> Note: in order to contribute to the project you must have **Node.js** & **NPM/Yarn** installed. The Node.js binaries come with NPM bundled together, which can be downloaded at [https://nodejs.org/download](https://nodejs.org/download).  
   
 #### 1. Clone repository and install dependencies  
 You can execute the commands below into your local terminal window.  
 ```  
 $ git clone https://github.com/tryhackmeltd/docs.tryhackme.com.git  
 $ cd ./docs.tryhackme.com-master  
-$ npm i  
+$ yarn 
 ```  
   
 #### 2. Start development server to run locally  
 Run the following in your local terminal window to start the local Node.js development server.   
 *Ensure you are at the project's root directory (where package.json is located)*.  
 ```  
-$ npm start  
+$ yarn start  
 ```  
   
 #### 3. Editing `<rootDir>/docs`  
