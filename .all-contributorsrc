@@ -197,6 +197,15 @@
         "doc",
         "bug"
       ]
+    },
+    {
+      "login": "cyberseguridadnet",
+      "name": "cyberseguridadnet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89405281?v=4",
+      "profile": "https://github.com/cyberseguridadnet",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
