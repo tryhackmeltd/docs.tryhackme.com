@@ -41,4 +41,4 @@ The [**monthly leaderboards**](https://tryhackme.com/leaderboards) are calculate
 - Old challenge rooms (not released this month) will give you 25% of the points to your monthly score and 100% to your all-time score.
 - Walkthrough rooms released this month, give you 25% of the points to both your all-time and monthly score.
 - Old Walkthrough rooms (not released this month) only give you 25% of the points to your all-time score, none for your monthly score.
-- The "Monthly" leaderboard resets to 0 on the last day of the month at 23:59. #1 will recieve a badge on their profile and a random security gift.
+- The "Monthly" leaderboard resets to 0 on the last day of the month at 23:59. #1 will receive a badge on their profile and a random security gift.
