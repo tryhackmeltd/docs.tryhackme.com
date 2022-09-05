@@ -206,6 +206,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "acaire",
+      "name": "Ash Caire",
+      "avatar_url": "https://avatars.githubusercontent.com/u/797119?v=4",
+      "profile": "https://github.com/acaire",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
