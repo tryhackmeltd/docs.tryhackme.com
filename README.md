@@ -18,7 +18,7 @@ TryHackMe Documentation
   
   <span>
   <a href="#contributors-"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square' />
+<img alt='All Contributors' src='https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square' />
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   </span>
   
@@ -260,6 +260,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://Shubhank.netlify.app"><img src="https://avatars.githubusercontent.com/u/62099471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shubh4nk</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=5h0bh4nk" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.studygrasp.com"><img src="https://avatars.githubusercontent.com/u/19845881?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swetabh Suman</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=SwetabhOfficial" title="Documentation">📖</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3ASwetabhOfficial" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/cyberseguridadnet"><img src="https://avatars.githubusercontent.com/u/89405281?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cyberseguridadnet</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Acyberseguridadnet" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/acaire"><img src="https://avatars.githubusercontent.com/u/797119?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ash Caire</b></sub></a><br /><a href="https://github.com/tryhackmeltd/docs.tryhackme.com/commits?author=acaire" title="Documentation">📖</a> <a href="https://github.com/tryhackmeltd/docs.tryhackme.com/issues?q=author%3Aacaire" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
