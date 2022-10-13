@@ -19,7 +19,7 @@ There are currently 13 levels:
 * 0xA [Wizard]
 * 0xB [Master]
 * 0xC [Guru]
-* 0xD [God]
+* 0xD [Expert]
 ```
 These are obtained at the following number of points:
 
