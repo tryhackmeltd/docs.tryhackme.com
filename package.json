@@ -18,7 +18,7 @@
     "@docusaurus/preset-classic": "^2.0.0-alpha.64",
     "algoliasearch": "^4.8.3",
     "classnames": "^2.2.6",
-    "css-loader": "^3.4.2",
+    "css-loader": "^6.9.0",
     "history": "^4.10.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
