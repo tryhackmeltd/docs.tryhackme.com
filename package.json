@@ -14,8 +14,8 @@
     "test": "jest --config=config/jest.config.js --coverage"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.64",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.64",
+    "@docusaurus/core": "^2.0.1",
+    "@docusaurus/preset-classic": "^2.0.1",
     "algoliasearch": "^4.8.3",
     "classnames": "^2.2.6",
     "css-loader": "^3.4.2",
@@ -24,7 +24,7 @@
     "react-dom": "^16.14.0",
     "react-icons": "^3.9.0",
     "react-instantsearch-dom": "^6.8.1",
-    "react-router": "latest",
+    "react-router": "6.0.0",
     "react-spinners": "^0.10.4",
     "snyk": "^1.409.1",
     "style-loader": "^1.3.0"
