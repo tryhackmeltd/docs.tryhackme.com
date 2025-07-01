@@ -26,7 +26,7 @@
     "react-instantsearch-dom": "^6.8.1",
     "react-router": "latest",
     "react-spinners": "^0.10.4",
-    "snyk": "^1.409.1",
+    "snyk": "^1.1297.3",
     "style-loader": "^1.3.0"
   },
   "devDependencies": {
